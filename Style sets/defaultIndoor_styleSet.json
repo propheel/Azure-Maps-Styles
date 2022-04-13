@@ -1,0 +1,1637 @@
+{
+  "version": 1,
+  "description": "First indoor style set!",
+  "defaultStyle": "road_indoor_tileset_00000000-0000-0000-0000-000000000000",
+  "styles": [
+    {
+      "name": "road_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Road",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "road_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "road_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Road",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "road_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "satellite_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Satellite",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "satellite_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.imagery",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "satellite_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Satellite",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "satellite_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.imagery",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "satellite_road_labels_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Hybrid",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "satellite-hybrid_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.imagery",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "satellite_road_labels_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Hybrid",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "satellite-hybrid_2018-06-21.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.imagery",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:satellite-hybrid_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "grayscale_dark_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Grayscale (Dark)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "grayscale_dark_2018-06-27.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "grayscale_dark_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Grayscale (Dark)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "grayscale_dark_2018-06-27.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_dark_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "night_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Night",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "night_2018-11-30.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "night_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Night",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "night_2018-11-30.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:night_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "grayscale_light_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Grayscale (Light)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "grayscale_light_2019-04-25.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "grayscale_light_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Grayscale (Light)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "grayscale_light_2019-04-25.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:grayscale_light_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "road_shaded_relief_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Terra",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "road_shaded_relief_2019-01-25.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.terra.main",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_base_natural-earth-shaded-relief"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "road_shaded_relief_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Terra",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "road_shaded_relief_2019-01-25.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.terra.main",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_base_natural-earth-shaded-relief"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:road_shaded_relief_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "blank_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Blank",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "blank_2019-06-18.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        }
+      ]
+    },
+    {
+      "name": "blank_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Blank",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "blank_2019-06-18.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        }
+      ]
+    },
+    {
+      "name": "blank_accessible_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Blank (Accessible)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "blank_2019-06-18.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "blank_accessible_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "Blank (Accessible)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "blank_2019-06-18.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:blank_accessible_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "high_contrast_dark_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "High contrast (Dark)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "high_contrast_dark_2020-02-20.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "high_contrast_dark_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "High contrast (Dark)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "dark",
+      "thumbnail": "high_contrast_dark_2020-02-20.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_dark_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "high_contrast_light_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "High contrast (Light)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "high_contrast_light_2021-05-24.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_labels_places"
+        }
+      ]
+    },
+    {
+      "name": "high_contrast_light_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "displayName": "High contrast (Light)",
+      "description": "It's a base style for Azure Maps.",
+      "theme": "light",
+      "thumbnail": "high_contrast_light_2021-05-24.png",
+      "layers": [
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_base"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_transit"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.absolute",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
+        },
+        {
+          "tilesetId": "microsoft.maps.flow.relative_delay",
+          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_buildings"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
+        },
+        {
+          "tilesetId": "00000000-0000-0000-0000-000000000000",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_labels"
+        },
+        {
+          "tilesetId": "microsoft.base",
+          "styleRecipeId": "microsoft-maps:high_contrast_light_2021-02-01_labels_places"
+        }
+      ]
+    }
+  ]
+}

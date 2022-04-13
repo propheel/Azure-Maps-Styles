@@ -1,0 +1,58 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_area_element",
+      "type": "fill",
+      "source-layer": "Indoor area_element",
+      "minzoom": 18.5,
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "structure"],
+          ["==", "category_name", "structure.wall"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": "rgba(30, 30, 30, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 1)"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_areaElement",
+      "type": "fill",
+      "source-layer": "Indoor areaElement",
+      "minzoom": 18.5,
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "categoryName", "structure"],
+          ["==", "categoryName", "structure.wall"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(30, 30, 30, 1)"
+        ],
+        "fill-outline-color": "rgba(0, 0, 0, 1)"
+      }
+    }
+  ]
+}

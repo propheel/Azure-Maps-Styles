@@ -1,0 +1,32 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.opening.opening_line",
+      "type": "line",
+      "source-layer": "Indoor opening",
+      "minzoom": 18.5,
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "opening"],
+          ["==", "category_name", "opening.door"],
+          ["==", "categoryName", "opening"],
+          ["==", "categoryName", "opening.door"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "opening"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": "rgba(91, 91, 91, 1)",
+        "line-width": 1.5
+      }
+    }
+  ]
+}

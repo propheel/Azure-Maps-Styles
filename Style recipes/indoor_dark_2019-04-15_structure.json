@@ -1,0 +1,33 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.structure.indoor_structure",
+      "type": "fill",
+      "source-layer": "Indoor structure",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "structure"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(30, 30, 30, 1)"
+        ],
+        "fill-outline-color": "rgba(0, 0, 0, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "categoryName", "structure"],
+          ["==", "categoryName", "structure.wall"]
+        ]
+      ]
+    }
+  ]
+}

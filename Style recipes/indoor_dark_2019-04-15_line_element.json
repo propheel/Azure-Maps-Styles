@@ -1,0 +1,76 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.line_element.indoor_line_element",
+      "type": "line",
+      "source-layer": "Indoor line_element",
+      "minzoom": 19.9,
+      "metadata": {
+        "microsoft.maps:layerGroup": "line_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-width": 1,
+        "line-opacity": 0.3
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "equipment"],
+          ["==", "category_name", "equipment.copier"],
+          ["==", "category_name", "equipment.device"],
+          ["==", "category_name", "equipment.printer"],
+          ["==", "category_name", "furniture"],
+          ["==", "category_name", "furniture.chair"],
+          ["==", "category_name", "furniture.desk"],
+          ["==", "category_name", "furniture.table"],
+          ["==", "category_name", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.line_element.indoor_lineElement",
+      "type": "line",
+      "source-layer": "Indoor lineElement",
+      "minzoom": 19.9,
+      "metadata": {
+        "microsoft.maps:layerGroup": "line_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-width": 1,
+        "line-opacity": 0.3
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "categoryName", "equipment"],
+          ["==", "categoryName", "equipment.copier"],
+          ["==", "categoryName", "equipment.device"],
+          ["==", "categoryName", "equipment.printer"],
+          ["==", "categoryName", "furniture"],
+          ["==", "categoryName", "furniture.chair"],
+          ["==", "categoryName", "furniture.desk"],
+          ["==", "categoryName", "furniture.table"],
+          ["==", "categoryName", "furniture.table.conference"]
+        ]
+      ]
+    }
+  ]
+}

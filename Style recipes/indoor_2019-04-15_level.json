@@ -1,0 +1,149 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.level.level_3d",
+      "type": "fill-extrusion",
+      "source-layer": "Indoor level",
+      "minzoom": 13,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-extrusion-color": "rgba(217, 217, 218, 1)",
+        "fill-extrusion-base": [
+          "*",
+          5,
+          [
+            "+",
+            0,
+            [
+              "coalesce",
+              [
+                "get",
+                "ordinal"
+              ],
+              0
+            ]
+          ]
+        ],
+        "fill-extrusion-height": [
+          "*",
+          5,
+          [
+            "+",
+            1,
+            [
+              "coalesce",
+              [
+                "get",
+                "ordinal"
+              ],
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.level.footprint_boundary_zoom16to17",
+      "type": "line",
+      "source-layer": "Indoor level",
+      "minzoom": 16,
+      "maxzoom": 17,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "focused"
+            ],
+            false
+          ],
+          "#007FFF",
+          "#808080"
+        ],
+        "line-width": 5
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.level.footprint_boundary",
+      "type": "line",
+      "source-layer": "Indoor level",
+      "minzoom": 17,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "focused"
+            ],
+            false
+          ],
+          "#007FFF",
+          "rgba(217, 217, 218, 1)"
+        ],
+        "line-width": 5
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.level.footprint_boundary_fill",
+      "type": "fill",
+      "source-layer": "Indoor level",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(0, 0, 0, 0.0)"
+        ]
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    }
+  ]
+}
+

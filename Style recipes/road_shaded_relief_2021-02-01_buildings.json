@@ -1,0 +1,162 @@
+{
+    "layers": [
+        {
+            "id": "microsoft.maps.base.buildings.School building",
+            "type": "fill-extrusion",
+            "source-layer": "School building",
+            "minzoom": 16,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(168, 179, 179, 1)",
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ],
+                "fill-extrusion-opacity": 0.5
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Other building",
+            "type": "fill-extrusion",
+            "source-layer": "Other building",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ],
+                "fill-extrusion-color": "rgba(215, 215, 215, 1)",
+                "fill-extrusion-opacity": 0.4,
+                "fill-extrusion-base": 0
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Factory building",
+            "type": "fill-extrusion",
+            "source-layer": "Factory building",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(215, 215, 215, 1)",
+                "fill-extrusion-opacity": 0.4,
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ]
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Place of worship",
+            "type": "fill-extrusion",
+            "source-layer": "Place of worship",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(202, 172, 165, 1)",
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ],
+                "fill-extrusion-opacity": 0.4
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Hospital building",
+            "type": "fill-extrusion",
+            "source-layer": "Hospital building",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(208, 188, 182, 1)",
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ],
+                "fill-extrusion-opacity": 0.4
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Hotel building",
+            "type": "fill-extrusion",
+            "source-layer": "Hotel building",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(215, 215, 215, 1)",
+                "fill-extrusion-opacity": 0.4,
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ]
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        },
+        {
+            "id": "microsoft.maps.base.buildings.Cultural Facility",
+            "type": "fill-extrusion",
+            "source-layer": "Cultural Facility",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "buildings"
+            },
+            "paint": {
+                "fill-extrusion-color": "rgba(202, 172, 165, 1)",
+                "fill-extrusion-opacity": 0.4,
+                "fill-extrusion-height": [
+                    "get",
+                    "height"
+                ]
+            },
+            "filter": [
+                "has",
+                "height"
+            ]
+        }
+    ]
+}

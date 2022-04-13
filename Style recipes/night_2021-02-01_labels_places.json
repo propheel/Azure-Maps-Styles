@@ -1,0 +1,3022 @@
+{
+    "layers": [
+        {
+            "id": "microsoft.maps.base.labels_places.Park/Garden label",
+            "type": "symbol",
+            "source-layer": "Park/Garden label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "park",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.7
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(12, 12, 12)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.National park name",
+            "type": "symbol",
+            "source-layer": "National park label",
+            "minzoom": 5,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.5
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "forest",
+                "symbol-avoid-edges": true,
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top",
+                "icon-offset": [
+                    0,
+                    0
+                ]
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Railway station",
+            "type": "symbol",
+            "source-layer": "Railway station",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "text-anchor": "top",
+                "icon-image": "train",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-padding": 2
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.POI",
+            "type": "symbol",
+            "source-layer": "POI",
+            "minzoom": 14,
+            "maxzoom": 22,
+            "filter": [
+                "!=",
+                "category",
+                "Bus stop"
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}\n{subText}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "{icon}",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.7
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-anchor": "top",
+                "text-padding": 2
+            },
+            "paint": {
+                "text-color": {
+                    "type": "categorical",
+                    "property": "category",
+                    "stops": [
+                        [
+                            "Mountain peak",
+                            "rgb(230, 230, 230)"
+                        ],
+                        [
+                            "Hill",
+                            "rgb(230, 230, 230)"
+                        ],
+                        [
+                            "Ridge",
+                            "rgb(230, 230, 230)"
+                        ],
+                        [
+                            "Valley",
+                            "rgb(230, 230, 230)"
+                        ],
+                        [
+                            "Reef",
+                            "rgb(255, 255, 255)"
+                        ],
+                        [
+                            "Government office",
+                            "rgb(186, 186, 186)"
+                        ],
+                        [
+                            "Post office",
+                            "rgb(186, 186, 186)"
+                        ],
+                        [
+                            "Police station",
+                            "rgb(186, 186, 186)"
+                        ],
+                        [
+                            "Fire station",
+                            "rgb(186, 186, 186)"
+                        ]
+                    ]
+                },
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Airport label",
+            "type": "symbol",
+            "source-layer": "Airport label",
+            "minzoom": 2,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.5
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "airport",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Stadium label",
+            "type": "symbol",
+            "source-layer": "Stadium label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "stadium",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Hospital label",
+            "type": "symbol",
+            "source-layer": "Hospital label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "hospital",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.University/School label",
+            "type": "symbol",
+            "source-layer": "University/School label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "school",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Zoo label",
+            "type": "symbol",
+            "source-layer": "Zoo label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "zoo",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Other label",
+            "type": "symbol",
+            "source-layer": "Other label",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            13
+                        ]
+                    ]
+                }
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Military Territory label",
+            "type": "symbol",
+            "source-layer": "Military Territory label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "military",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Amusement area label",
+            "type": "symbol",
+            "source-layer": "Amusement area label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "amusement",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Cemetery label",
+            "type": "symbol",
+            "source-layer": "Cemetery label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "cemetery",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Reservation label-sm",
+            "type": "symbol",
+            "source-layer": "Reservation label",
+            "minzoom": 10,
+            "maxzoom": 24,
+            "filter": [
+                "none",
+                [
+                    "==",
+                    "name",
+                    "Coeur d' Alene Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Spokane Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Yakama Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Colville Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Nez Perce Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Warm Springs Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Flathead Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Peck Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Belknap Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Blackfeet Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Crow Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Northern Cheyenne Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Wind River Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Uintah and Ouray Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Pyramid Lake Paiute Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Berthold Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Standing Rock Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Cheyenne Rover Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Pine Ridge Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Navajo Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "San Carlos Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Havasupai Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Hualapai Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Hualapai Tribal Counci"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Tohono O'odham Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Osage Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Apache Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Zuni Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Laguna Pueblo"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Mescalero Reservation"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.7
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Reservation label",
+            "type": "symbol",
+            "source-layer": "Reservation label",
+            "minzoom": 6,
+            "maxzoom": 24,
+            "filter": [
+                "any",
+                [
+                    "==",
+                    "name",
+                    "Coeur d' Alene Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Spokane Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Yakama Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Colville Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Nez Perce Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Warm Springs Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Flathead Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Peck Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Belknap Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Blackfeet Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Crow Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Northern Cheyenne Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Wind River Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Uintah and Ouray Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Pyramid Lake Paiute Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Berthold Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Standing Rock Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Cheyenne Rover Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Pine Ridge Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Navajo Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "San Carlos Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Havasupai Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Hualapai Indian Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Hualapai Tribal Counci"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Tohono O'odham Nation Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Osage Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Fort Apache Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Zuni Reservation"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Laguna Pueblo"
+                ],
+                [
+                    "==",
+                    "name",
+                    "Mescalero Reservation"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            18
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.7
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Landmark label",
+            "type": "symbol",
+            "source-layer": "Landmark label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "landmark",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Golf Course label",
+            "type": "symbol",
+            "source-layer": "Golf Course label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "golf",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top",
+                "icon-offset": [
+                    0,
+                    1
+                ]
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Prison label",
+            "type": "symbol",
+            "source-layer": "Prison label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "jail",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Shopping centre label",
+            "type": "symbol",
+            "source-layer": "Shopping centre label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "shopping",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Museum label",
+            "type": "symbol",
+            "source-layer": "Museum label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "museum",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Woodland label",
+            "type": "symbol",
+            "source-layer": "Woodland label",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            13
+                        ]
+                    ]
+                },
+                "text-padding": 2,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Industrial area label",
+            "type": "symbol",
+            "source-layer": "Industrial area label",
+            "minzoom": 12,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    1.2
+                ],
+                "text-padding": 2,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            9
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-image": "industrial",
+                "icon-allow-overlap": false,
+                "icon-ignore-placement": false,
+                "visibility": "visible",
+                "icon-size": {
+                    "stops": [
+                        [
+                            3,
+                            0.7
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(6, 6, 6)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-opacity": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Neighborhood-1",
+            "type": "symbol",
+            "source-layer": "Town",
+            "minzoom": 11,
+            "maxzoom": 21,
+            "filter": [
+                "all",
+                ["!=", "name", " "],
+                ["==", "category", "neighborhood"]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": ["SegoeFrutigerHelveticaMYingHei-Bold"],
+                "text-offset": [0, 0.2],
+                "text-padding": 15,
+                "text-letter-spacing": 0.08,
+                "text-size": {
+                    "stops": [
+                        [0, 6],
+                        [7, 11],
+                        [8, 12],
+                        [9, 12],
+                        [10, 10],
+                        [11, 12],
+                        [13, 13],
+                        [14, 15],
+                        [15, 16]
+                    ]
+                },
+                "icon-size": 0.4,
+                "text-anchor": "top",
+                "symbol-spacing": 400,
+                "text-transform": "uppercase",
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgba(224, 224, 224, 1)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0.5,
+                "text-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Neighborhood-2",
+            "type": "symbol",
+            "source-layer": "Village",
+            "minzoom": 11,
+            "maxzoom": 21,
+            "filter": [
+                "all",
+                ["!=", "name", " "],
+                ["==", "category", "neighborhood"]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": ["SegoeFrutigerHelveticaMYingHei-Bold"],
+                "text-offset": [0, 0.2],
+                "text-padding": 15,
+                "text-letter-spacing": 0.08,
+                "text-size": {
+                    "stops": [
+                        [0, 6],
+                        [7, 11],
+                        [8, 12],
+                        [9, 12],
+                        [10, 10],
+                        [11, 12],
+                        [13, 13],
+                        [14, 15],
+                        [15, 16]
+                    ]
+                },
+                "icon-image": "",
+                "icon-size": 0.4,
+                "text-anchor": "top",
+                "text-transform": "uppercase",
+                "icon-optional": true,
+                "visibility": "visible",
+                "symbol-spacing": 400
+            },
+            "paint": {
+                "text-color": "rgba(224, 224, 224, 1)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0.5,
+                "text-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Village",
+            "type": "symbol",
+            "source-layer": "Village",
+            "minzoom": 0,
+            "maxzoom": 21,
+            "filter": [
+                "all",
+                ["!=", "name", " "],
+                ["!=", "category", "neighborhood"]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": ["SegoeFrutigerHelveticaMYingHei-Regular"],
+                "text-offset": [
+                    0,
+                    0.2
+                ],
+                "text-padding": 3,
+                "text-letter-spacing": 0.08,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            7,
+                            11
+                        ],
+                        [
+                            8,
+                            12
+                        ],
+                        [
+                            9,
+                            12
+                        ],
+                        [
+                            10,
+                            10
+                        ],
+                        [
+                            11,
+                            12
+                        ],
+                        [
+                            12,
+                            12
+                        ],
+                        [
+                            13,
+                            13
+                        ],
+                        [
+                            14,
+                            15
+                        ],
+                        [
+                            15,
+                            16
+                        ]
+                    ]
+                },
+                "icon-image": "",
+                "icon-size": 0.4,
+                "text-anchor": "top",
+                "text-transform": "uppercase",
+                "icon-optional": true,
+                "visibility": "visible",
+                "symbol-spacing": 400
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0,
+                "text-opacity": 0.9
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Town",
+            "type": "symbol",
+            "source-layer": "Town",
+            "maxzoom": 15,
+            "filter": [
+                "all",
+                ["!=", "name", " "],
+                ["!=", "category", "neighborhood"]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.2
+                ],
+                "text-padding": 10,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            7,
+                            11
+                        ],
+                        [
+                            8,
+                            12
+                        ],
+                        [
+                            9,
+                            12
+                        ],
+                        [
+                            10,
+                            14
+                        ],
+                        [
+                            11,
+                            16
+                        ],
+                        [
+                            12,
+                            18
+                        ],
+                        [
+                            13,
+                            20
+                        ],
+                        [
+                            15,
+                            22
+                        ]
+                    ]
+                },
+                "icon-image": "point-circle-blue-o",
+                "icon-size": {
+                    "stops": [
+                        [
+                            9,
+                            0.4
+                        ],
+                        [
+                            12,
+                            0
+                        ]
+                    ]
+                },
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Small city",
+            "type": "symbol",
+            "source-layer": "Small city",
+            "maxzoom": 15,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.2
+                ],
+                "text-padding": 10,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            7,
+                            11
+                        ],
+                        [
+                            8,
+                            12
+                        ],
+                        [
+                            9,
+                            12
+                        ],
+                        [
+                            10,
+                            14
+                        ],
+                        [
+                            11,
+                            16
+                        ],
+                        [
+                            12,
+                            18
+                        ],
+                        [
+                            13,
+                            20
+                        ],
+                        [
+                            15,
+                            22
+                        ]
+                    ]
+                },
+                "icon-image": "point-circle-blue",
+                "visibility": "visible",
+                "text-anchor": "top",
+                "icon-size": {
+                    "stops": [
+                        [
+                            9,
+                            0.4
+                        ],
+                        [
+                            11,
+                            0
+                        ]
+                    ]
+                }
+            },
+            "paint": {
+                "text-color": "rgb(255, 255, 255)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Medium city",
+            "type": "symbol",
+            "source-layer": "Medium city",
+            "maxzoom": 15,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    0.2
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            4,
+                            9
+                        ],
+                        [
+                            5,
+                            11
+                        ],
+                        [
+                            6,
+                            11
+                        ],
+                        [
+                            7,
+                            12
+                        ],
+                        [
+                            8,
+                            14
+                        ],
+                        [
+                            9,
+                            16
+                        ],
+                        [
+                            10,
+                            18
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12,
+                            24
+                        ],
+                        [
+                            13,
+                            26
+                        ],
+                        [
+                            14,
+                            28
+                        ],
+                        [
+                            15,
+                            30
+                        ]
+                    ]
+                },
+                "text-transform": "none",
+                "visibility": "visible",
+                "text-allow-overlap": false,
+                "text-ignore-placement": false,
+                "icon-image": "point-circle-blue-o",
+                "icon-size": {
+                    "stops": [
+                        [
+                            2,
+                            0.4
+                        ],
+                        [
+                            8,
+                            0.5
+                        ],
+                        [
+                            9,
+                            0
+                        ]
+                    ]
+                },
+                "text-max-width": 10,
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-translate": [
+                    0,
+                    0
+                ],
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Capital city",
+            "type": "symbol",
+            "source-layer": "Capital city",
+            "maxzoom": 15,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Bold"
+                ],
+                "text-offset": [
+                    0,
+                    0.2
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            4,
+                            13
+                        ],
+                        [
+                            5,
+                            13
+                        ],
+                        [
+                            6,
+                            12
+                        ],
+                        [
+                            7,
+                            14
+                        ],
+                        [
+                            8,
+                            16
+                        ],
+                        [
+                            9,
+                            18
+                        ],
+                        [
+                            10,
+                            20
+                        ],
+                        [
+                            11,
+                            22
+                        ],
+                        [
+                            12,
+                            24
+                        ],
+                        [
+                            13,
+                            26
+                        ],
+                        [
+                            14,
+                            28
+                        ],
+                        [
+                            15,
+                            30
+                        ]
+                    ]
+                },
+                "text-transform": "none",
+                "visibility": "visible",
+                "text-allow-overlap": false,
+                "text-ignore-placement": false,
+                "icon-image": "point-circle-red",
+                "icon-size": {
+                    "stops": [
+                        [
+                            1,
+                            0.4
+                        ],
+                        [
+                            8,
+                            0.5
+                        ],
+                        [
+                            9,
+                            0
+                        ]
+                    ]
+                },
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "rgb(230, 230, 230)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-translate": [
+                    0,
+                    0
+                ],
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.State name short",
+            "type": "symbol",
+            "source-layer": "State name short",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-padding": 10,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            7,
+                            14
+                        ],
+                        [
+                            8,
+                            16
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.State name",
+            "type": "symbol",
+            "source-layer": "State name",
+            "filter": [
+                "any",
+                [
+                    "!=",
+                    "name",
+                    ""
+                ],
+                [
+                    "==",
+                    "name",
+                    "Kansas"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            6,
+                            16
+                        ],
+                        [
+                            7,
+                            22
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-transform": "uppercase",
+                "symbol-spacing": 250,
+                "text-ignore-placement": false,
+                "text-allow-overlap": false
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 0.75,
+                "text-opacity": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.State name- kansas",
+            "type": "symbol",
+            "source-layer": "State name",
+            "filter": [
+                "all",
+                [
+                    "!=",
+                    "name",
+                    ""
+                ],
+                [
+                    "==",
+                    "name",
+                    "Kansas"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-padding": 0,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            6,
+                            16
+                        ],
+                        [
+                            7,
+                            22
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-transform": "uppercase",
+                "symbol-spacing": 250,
+                "text-ignore-placement": false,
+                "text-allow-overlap": true
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 0.75,
+                "text-opacity": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Intermittent water label",
+            "type": "symbol",
+            "source-layer": "Intermittent water label",
+            "minzoom": 1,
+            "maxzoom": 24,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            6,
+                            10
+                        ],
+                        [
+                            9,
+                            11
+                        ],
+                        [
+                            10,
+                            12
+                        ],
+                        [
+                            11,
+                            13
+                        ],
+                        [
+                            12,
+                            14
+                        ],
+                        [
+                            13,
+                            15
+                        ]
+                    ]
+                },
+                "visibility": "visible",
+                "text-pitch-alignment": "auto",
+                "text-justify": "center",
+                "text-rotate": {
+                    "stops": [
+                        [
+                            8,
+                            -90
+                        ],
+                        [
+                            11,
+                            0
+                        ]
+                    ]
+                }
+            },
+            "paint": {
+                "text-color": "rgb(59, 83, 93)",
+                "text-halo-color": "rgb(66, 132, 151)",
+                "text-halo-width": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Island label",
+            "type": "symbol",
+            "source-layer": "Island label",
+            "minzoom": 4,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            4,
+                            10
+                        ],
+                        [
+                            17,
+                            18
+                        ]
+                    ]
+                }
+            },
+            "paint": {
+                "text-color": "rgb(255, 255, 255)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Sea label",
+            "type": "symbol",
+            "source-layer": "Sea label",
+            "minzoom": 0,
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            11
+                        ],
+                        [
+                            12,
+                            18
+                        ],
+                        [
+                            18,
+                            20
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgb(173, 175, 179)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 0,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Ocean label",
+            "type": "symbol",
+            "source-layer": "Ocean label",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            11
+                        ],
+                        [
+                            12,
+                            18
+                        ],
+                        [
+                            18,
+                            20
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgb(173, 175, 179)",
+                "text-halo-color": "rgb(6, 6, 6)",
+                "text-halo-width": 0,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Other water body label-filter",
+            "type": "symbol",
+            "source-layer": "Other water body label",
+            "filter": [
+                "any",
+                [
+                    "==",
+                    "name",
+                    "Lake Washington"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    -5
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            17,
+                            18
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgb(59, 83, 93)",
+                "text-halo-color": "rgb(255, 255, 255)",
+                "text-halo-width": 0.5,
+                "text-halo-blur": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Other water body label",
+            "type": "symbol",
+            "source-layer": "Other water body label",
+            "filter": [
+                "none",
+                [
+                    "==",
+                    "name",
+                    "Lake Washington"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Medium"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            17,
+                            18
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "paint": {
+                "text-color": "rgb(255, 255, 255)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Lake label",
+            "type": "symbol",
+            "source-layer": "Lake label",
+            "filter": [
+                "!=",
+                "name",
+                " "
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Regular"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            17,
+                            18
+                        ]
+                    ]
+                }
+            },
+            "paint": {
+                "text-color": "rgb(255, 255, 255)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Country name-filter",
+            "type": "symbol",
+            "source-layer": "Country name",
+            "minzoom": 1,
+            "maxzoom": 24,
+            "filter": [
+                "none",
+                [
+                    "==",
+                    "name",
+                    "United States"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Bold"
+                ],
+                "text-offset": [
+                    0,
+                    0.1
+                ],
+                "text-padding": 5,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            5,
+                            13
+                        ],
+                        [
+                            6,
+                            18
+                        ],
+                        [
+                            7,
+                            22
+                        ],
+                        [
+                            8,
+                            28
+                        ]
+                    ]
+                },
+                "text-ignore-placement": false,
+                "text-transform": "none",
+                "visibility": "visible",
+                "icon-image": "",
+                "text-max-width": 5
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-translate": [
+                    300,
+                    0
+                ],
+                "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "microsoft.maps.base.labels_places.Country name",
+            "type": "symbol",
+            "source-layer": "Country name",
+            "minzoom": 1,
+            "maxzoom": 24,
+            "filter": [
+                "any",
+                [
+                    "==",
+                    "name",
+                    "United States"
+                ]
+            ],
+            "metadata": {
+                "microsoft.maps:layerGroup": "labels_places"
+            },
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{name}",
+                "text-font": [
+                    "SegoeFrutigerHelveticaMYingHei-Bold"
+                ],
+                "text-offset": [
+                    0,
+                    1
+                ],
+                "text-padding": 5,
+                "text-letter-spacing": 0.1,
+                "text-size": {
+                    "stops": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            5,
+                            13
+                        ],
+                        [
+                            6,
+                            18
+                        ],
+                        [
+                            7,
+                            22
+                        ],
+                        [
+                            8,
+                            28
+                        ]
+                    ]
+                },
+                "text-ignore-placement": false,
+                "text-transform": "none",
+                "visibility": "visible",
+                "icon-image": "",
+                "text-max-width": 15
+            },
+            "paint": {
+                "text-color": "rgb(186, 186, 186)",
+                "text-halo-color": "rgb(10, 10, 10)",
+                "text-halo-width": 1,
+                "text-opacity": 1,
+                "icon-translate": [
+                    300,
+                    0
+                ],
+                "text-halo-blur": 0
+            }
+        }
+    ]
+}

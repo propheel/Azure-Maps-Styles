@@ -1,0 +1,138 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_area_element",
+      "type": "fill",
+      "source-layer": "Indoor area_element",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": "rgba(220, 220, 220, 1)",
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "structure"],
+          ["==", "category_name", "structure.wall"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_area_element_furniture",
+      "type": "fill",
+      "source-layer": "Indoor area_element",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "equipment"],
+          ["==", "category_name", "equipment.copier"],
+          ["==", "category_name", "equipment.device"],
+          ["==", "category_name", "equipment.printer"],
+          ["==", "category_name", "furniture"],
+          ["==", "category_name", "furniture.chair"],
+          ["==", "category_name", "furniture.desk"],
+          ["==", "category_name", "furniture.table"],
+          ["==", "category_name", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_areaElement",
+      "type": "fill",
+      "source-layer": "Indoor areaElement",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "categoryName", "structure"],
+          ["==", "categoryName", "structure.wall"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.area_element.indoor_areaElement_furniture",
+      "type": "fill",
+      "source-layer": "Indoor areaElement",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "categoryName", "equipment"],
+          ["==", "categoryName", "equipment.copier"],
+          ["==", "categoryName", "equipment.device"],
+          ["==", "categoryName", "equipment.printer"],
+          ["==", "categoryName", "furniture"],
+          ["==", "categoryName", "furniture.chair"],
+          ["==", "categoryName", "furniture.desk"],
+          ["==", "categoryName", "furniture.table"],
+          ["==", "categoryName", "furniture.table.conference"]
+        ]
+      ]
+    }
+  ]
+}

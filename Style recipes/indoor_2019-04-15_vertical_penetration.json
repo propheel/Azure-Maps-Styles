@@ -1,0 +1,72 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.vertical_penetration.indoor_vertical_penetration",
+      "type": "fill",
+      "source-layer": "Indoor vertical_penetration",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "vertical_penetration"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "verticalPenetration"],
+          ["==", "category_name", "verticalPenetration.elevator"],
+          ["==", "category_name", "verticalPenetration.stairs"],
+          ["==", "category_name", "verticalPenetration.stairwell"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.vertical_penetration.indoor_verticalPenetration",
+      "type": "fill",
+      "source-layer": "Indoor verticalPenetration",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "vertical_penetration"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(244, 244, 244, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "categoryName", "verticalPenetration"],
+          ["==", "categoryName", "verticalPenetration.elevator"],
+          ["==", "categoryName", "verticalPenetration.stairs"],
+          ["==", "categoryName", "verticalPenetration.stairwell"]
+        ]
+      ]
+    }
+]
+}

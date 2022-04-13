@@ -1,0 +1,382 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_store",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": "rgba(230, 230, 230, 1)",
+        "fill-antialias": true,
+        "fill-opacity": 1,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.store"],
+          ["==", "categoryName", "room.store"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_room",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(230, 230, 230, 1)"
+        ],
+        "fill-antialias": true,
+        "fill-opacity": 1,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room"],
+          ["==", "category_name", "room.other"],
+          ["==", "category_name", "room.laboratory"],
+          ["==", "categoryName", "room"],
+          ["==", "categoryName", "room.other"],
+          ["==", "categoryName", "room.laboratory"],
+          ["==", "categoryName", "room.atrium"],
+          ["==", "categoryName", "room.circulation"],
+          ["==", "categoryName", "room.classroom"],
+          ["==", "categoryName", "room.closet"],
+          ["==", "categoryName", "room.closet.coat"],
+          ["==", "categoryName", "room.closet.janitorial"],
+          ["==", "categoryName", "room.closet.supply"],
+          ["==", "categoryName", "room.copy"],
+          ["==", "categoryName", "room.dataCenter"],
+          ["==", "categoryName", "room.demo"],
+          ["==", "categoryName", "room.documents"],
+          ["==", "categoryName", "room.focus"],
+          ["==", "categoryName", "room.foyer"],
+          ["==", "categoryName", "room.gaming"],
+          ["==", "categoryName", "room.gym"],
+          ["==", "categoryName", "room.interview"],
+          ["==", "categoryName", "room.lab"],
+          ["==", "categoryName", "room.lab.storage"],
+          ["==", "categoryName", "room.library"],
+          ["==", "categoryName", "room.loading"],
+          ["==", "categoryName", "room.locker"],
+          ["==", "categoryName", "room.makerSpace"],
+          ["==", "categoryName", "room.multiPurpose"],
+          ["==", "categoryName", "room.multiPurpose.large"],
+          ["==", "categoryName", "room.multiPurpose.medium"],
+          ["==", "categoryName", "room.multiPurpose.small"],
+          ["==", "categoryName", "room.newMother"],
+          ["==", "categoryName", "room.office.large"],
+          ["==", "categoryName", "room.office.medium"],
+          ["==", "categoryName", "room.office.open"],
+          ["==", "categoryName", "room.office.shared"],
+          ["==", "categoryName", "room.office.small"],
+          ["==", "categoryName", "room.office.team"],
+          ["==", "categoryName", "room.openMeeting"],
+          ["==", "categoryName", "room.phone"],
+          ["==", "categoryName", "room.production.floor"],
+          ["==", "categoryName", "room.production.shipping"],
+          ["==", "categoryName", "room.production.warehouse"],
+          ["==", "categoryName", "room.project"],
+          ["==", "categoryName", "room.receiving"],
+          ["==", "categoryName", "room.reception"],
+          ["==", "categoryName", "room.recording"],
+          ["==", "categoryName", "room.recording.booth"],
+          ["==", "categoryName", "room.recording.studio"],
+          ["==", "categoryName", "room.recreation"],
+          ["==", "categoryName", "room.relaxation"],
+          ["==", "categoryName", "room.restroom.allGender"],
+          ["==", "categoryName", "room.restroom.female"],
+          ["==", "categoryName", "room.restroom.male"],
+          ["==", "categoryName", "room.restroom.private"],
+          ["==", "categoryName", "room.retail"],
+          ["==", "categoryName", "room.security"],
+          ["==", "categoryName", "room.server"],
+          ["==", "categoryName", "room.shared"],
+          ["==", "categoryName", "room.showcase"],
+          ["==", "categoryName", "room.shower"],
+          ["==", "categoryName", "room.stock"],
+          ["==", "categoryName", "room.storage.secure"],
+          ["==", "categoryName", "room.studio"],
+          ["==", "categoryName", "room.supply"],
+          ["==", "categoryName", "room.training"],
+          ["==", "categoryName", "room.underConstruction"],
+          ["==", "categoryName", "room.unknown"],
+          ["==", "categoryName", "room.utility"],
+          ["==", "categoryName", "room.utility.audioVisual"],
+          ["==", "categoryName", "room.utility.cable"],
+          ["==", "categoryName", "room.utility.cable.private"],
+          ["==", "categoryName", "room.utility.electrical"],
+          ["==", "categoryName", "room.utility.mechanical"],
+          ["==", "categoryName", "room.utility.sprinkler"],
+          ["==", "categoryName", "room.vending"],
+          ["==", "categoryName", "room.visitorArea"],
+          ["==", "categoryName", "room.warehouse"],
+          ["==", "categoryName", "room.wellness"],
+          ["==", "categoryName", "room.workspace"]
+        ]
+      ]
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_storage",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(230, 230, 230, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.mechanical"],
+          ["==", "category_name", "room.storage"],
+          ["==", "categoryName", "room.mechanical"],
+          ["==", "categoryName", "room.storage"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_restroom",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": "rgba(243, 225, 241, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.restroom"],
+          ["==", "category_name", "room.break"],
+          ["==", "category_name", "room.lounge"],
+          ["==", "categoryName", "room.restroom"],
+          ["==", "categoryName", "room.break"],
+          ["==", "categoryName", "room.lounge"],
+          ["==", "categoryName", "room.gaming"],
+          ["==", "categoryName", "room.allGender"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_conference",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(223, 238, 243, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.conference"],
+          ["==", "category_name", "room.conference.extralarge"],
+          ["==", "category_name", "room.conference.large"],
+          ["==", "category_name", "room.conference.medium"],
+          ["==", "category_name", "room.conference.small"],
+          ["==", "category_name", "room.conference_room"],
+          ["==", "category_name", "room.auditorium"],
+          ["==", "categoryName", "room.conference"],
+          ["==", "categoryName", "room.conference.extralarge"],
+          ["==", "categoryName", "room.conference.large"],
+          ["==", "categoryName", "room.conference.medium"],
+          ["==", "categoryName", "room.conference.small"],
+          ["==", "categoryName", "room.conference_room"],
+          ["==", "categoryName", "room.auditorium"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_hallway",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.hallway"],
+          ["==", "categoryName", "room.hallway"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_office",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(204, 222, 239, 1)"
+        ],
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.office"],
+          ["==", "categoryName", "room.office"],
+          ["==", "categoryName", "room.office.large"],
+          ["==", "categoryName", "room.office.medium"],
+          ["==", "categoryName", "room.office.open"],
+          ["==", "categoryName", "room.office.shared"],
+          ["==", "categoryName", "room.office.small"],
+          ["==", "categoryName", "room.office.team"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_kitchen",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.kitchen"],
+          ["==", "category_name", "room.kitchenette"],
+          ["==", "category_name", "room.cafeteria"],
+          ["==", "categoryName", "room.kitchen"],
+          ["==", "categoryName", "room.kitchenette"],
+          ["==", "categoryName", "room.cafeteria"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 0.8,
+        "fill-color": "rgba(255, 227, 202, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      }
+    },
+    {
+      "id": "microsoft.maps.indoor.unit.indoor_unit_lobby",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 18.5,
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.lobby"],
+          ["==", "categoryName", "room.lobby"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      }
+    }
+  ]
+}

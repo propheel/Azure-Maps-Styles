@@ -1,0 +1,47 @@
+{
+    "layers": [
+        {
+            "id": "microsoft.maps.base.base.background",
+            "type": "background",
+            "minzoom": 0,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "background-color": "rgb(241, 241, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.natural_earth",
+            "type": "raster",
+            "minzoom": 0,
+            "maxzoom": 6,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "raster-opacity": {
+                    "base": 1.5,
+                    "stops": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            7,
+                            0
+                        ]
+                    ]
+                },
+                "raster-fade-duration": 500
+            }
+        }
+    ]
+}

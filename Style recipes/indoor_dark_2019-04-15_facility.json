@@ -1,0 +1,32 @@
+{
+  "layers": [
+    {
+      "id": "microsoft.maps.indoor.facility.indoor_facility_building",
+      "type": "fill",
+      "source-layer": "Indoor facility",
+      "minzoom": 16,
+      "filter": [
+        "any",
+        ["==", "category_name", "facility"],
+        ["==", "category_name", "facility.building"],
+        ["==", "categoryName", "facility"],
+        ["==", "categoryName", "facility.building"]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "facility"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(39, 46, 54, 1)"
+        ],
+        "fill-antialias": true,
+        "fill-opacity": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,1097 @@
+{
+    "layers": [
+        {
+            "id": "microsoft.maps.base.base.background",
+            "type": "background",
+            "minzoom": 0,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "background-color": "rgb(241, 241, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 8",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 6,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": {
+                    "stops": [
+                        [
+                            6,
+                            "rgb(250, 250, 250)"
+                        ],
+                        [
+                            8,
+                            "rgb(232, 233, 233)"
+                        ],
+                        [
+                            10,
+                            "rgb(236, 236, 237)"
+                        ],
+                        [
+                            15,
+                            "rgb(240, 240, 241)"
+                        ]
+                    ]
+                },
+                "fill-outline-color": {
+                    "stops": [
+                        [
+                            6,
+                            "rgb(250, 250, 250)"
+                        ],
+                        [
+                            8,
+                            "rgb(232, 233, 233)"
+                        ],
+                        [
+                            10,
+                            "rgb(236, 236, 237)"
+                        ],
+                        [
+                            15,
+                            "rgba(240, 240, 242, 1)"
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Forest",
+            "type": "fill",
+            "source-layer": "Forest",
+            "minzoom": 0,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)",
+                "fill-antialias": true,
+                "fill-opacity": 0.25
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Park",
+            "type": "fill",
+            "source-layer": "Park",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.National or state park",
+            "type": "fill",
+            "source-layer": "National or state park",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.National park",
+            "type": "fill",
+            "source-layer": "National park",
+            "minzoom": 4,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgba(224, 238, 227, 1)",
+                "fill-translate-anchor": "map",
+                "fill-outline-color": "rgba(224, 238, 227, 1)",
+                "fill-opacity": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.State or province park",
+            "type": "fill",
+            "source-layer": "State or province park",
+            "maxzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.County park",
+            "type": "fill",
+            "source-layer": "County park",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Beach or dune",
+            "type": "fill",
+            "source-layer": "Beach or dune",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(254, 236, 182)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Regional park",
+            "type": "fill",
+            "source-layer": "Regional park",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Woodland",
+            "type": "fill",
+            "source-layer": "Woodland",
+            "minzoom": 0,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgba(172, 229, 183, 0.25)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Sand",
+            "type": "fill",
+            "source-layer": "Sand",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(254, 236, 182)",
+                "fill-opacity": 0.4
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Moor or heathland",
+            "type": "fill",
+            "source-layer": "Moor or heathland",
+            "minzoom": 10,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(232, 208, 213)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 16",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 16,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(241, 241, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 12",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 12,
+            "maxzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(238, 239, 240)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 11",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 11,
+            "maxzoom": 12,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(234, 235, 236)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 9",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 9,
+            "maxzoom": 11,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(234, 235, 236)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Built-up area 6",
+            "type": "fill",
+            "source-layer": "Built-up area",
+            "minzoom": 6,
+            "maxzoom": 8,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(226, 219, 226)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Military",
+            "type": "fill",
+            "source-layer": "Military",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(138, 128, 128)",
+                "fill-opacity": 0.2
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town railway ground",
+            "type": "fill",
+            "source-layer": "Town railway ground",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(194, 200, 208)",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.City park",
+            "type": "fill",
+            "source-layer": "City park",
+            "minzoom": 10,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)",
+                "fill-opacity": {
+                    "stops": [
+                        [
+                            6,
+                            0.3
+                        ],
+                        [
+                            13,
+                            1
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Industrial area",
+            "type": "fill",
+            "source-layer": "Industrial area",
+            "maxzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(209, 217, 225)",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Industrial harbor area",
+            "type": "fill",
+            "source-layer": "Industrial harbor area",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(209, 217, 225)",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town greens",
+            "type": "fill",
+            "source-layer": "Town greens",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(172, 229, 183)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Golf",
+            "type": "fill",
+            "source-layer": "Golf",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(167, 224, 178)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Cemetery",
+            "type": "fill",
+            "source-layer": "Cemetery",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(166, 208, 172)",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Shopping",
+            "type": "fill",
+            "source-layer": "Shopping",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(234, 228, 233)",
+                "fill-opacity": 0.7
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Airport",
+            "type": "fill",
+            "source-layer": "Airport",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(218, 220, 225)",
+                "fill-opacity": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Runway",
+            "type": "fill",
+            "source-layer": "Runway",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(199, 201, 209)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town paved area",
+            "type": "fill",
+            "source-layer": "Town paved area",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(235, 235, 235)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town garden path",
+            "type": "fill",
+            "source-layer": "Town garden path",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(161, 199, 168)",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.School building footprint",
+            "type": "fill",
+            "source-layer": "School building",
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(205, 210, 211)"
+            },
+            "minzoom": 16
+        },
+        {
+            "id": "microsoft.maps.base.base.Town school ground 0",
+            "type": "fill",
+            "source-layer": "Town school ground",
+            "minzoom": 15,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(215, 227, 227)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.University",
+            "type": "fill",
+            "source-layer": "University",
+            "minzoom": 0,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(215, 227, 227)",
+                "fill-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.School",
+            "type": "fill",
+            "source-layer": "School",
+            "minzoom": 5,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(203, 222, 222)",
+                "fill-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Hospital",
+            "type": "fill",
+            "source-layer": "Hospital",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(240, 226, 220)",
+                "fill-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Institution",
+            "type": "fill",
+            "source-layer": "Institution",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(203, 222, 222)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Government Administration Office",
+            "type": "fill",
+            "source-layer": "Government Administration Office",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(170, 131, 123)",
+                "fill-opacity": 0.2
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Stadium",
+            "type": "fill",
+            "source-layer": "Stadium",
+            "minzoom": 10,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgba(237, 180, 231, 1)",
+                "fill-opacity": 0.1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Other building footprint",
+            "type": "fill",
+            "source-layer": "Other building",
+            "minzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(231, 231, 231)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Reservation",
+            "type": "fill",
+            "source-layer": "Reservation",
+            "minzoom": 6,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(240, 237, 235)",
+                "fill-opacity": 1,
+                "fill-outline-color": "rgb(232, 226, 226)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Pedestrian Deck",
+            "type": "fill",
+            "source-layer": "Pedestrian Deck",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(232, 237, 238)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Other town block",
+            "type": "fill",
+            "source-layer": "Other town block",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(245, 188, 146)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Pool",
+            "type": "fill",
+            "source-layer": "Pool",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(174, 210, 236)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Zoo",
+            "type": "fill",
+            "source-layer": "Zoo",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(170, 131, 123)",
+                "fill-opacity": 0.2
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Sports hall",
+            "type": "fill",
+            "source-layer": "Sports hall",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(169, 186, 212)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Amusement park",
+            "type": "fill",
+            "source-layer": "Amusement park",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(231, 245, 235)",
+                "fill-opacity": 1
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town grass",
+            "type": "fill",
+            "source-layer": "Town grass",
+            "minzoom": 14,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(197, 253, 213)",
+                "fill-opacity": 0.7
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town swimming pool",
+            "type": "fill",
+            "source-layer": "Town swimming pool",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(174, 210, 236)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town walkway",
+            "type": "fill",
+            "source-layer": "Town walkway",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(232, 237, 238)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town factory ground 0",
+            "type": "fill",
+            "source-layer": "Town factory ground",
+            "minzoom": 13,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(209, 217, 225)",
+                "fill-opacity": {
+                    "stops": [
+                        [
+                            6,
+                            0.25
+                        ],
+                        [
+                            14,
+                            0.5
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town water body",
+            "type": "fill",
+            "source-layer": "Town water body",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(174, 210, 236)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Factory building footprint",
+            "type": "fill",
+            "source-layer": "Factory building",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(231, 231, 231)"
+            },
+            "minzoom": 16
+        },
+        {
+            "id": "microsoft.maps.base.base.Place of worship footprint",
+            "type": "fill",
+            "source-layer": "Place of worship",
+            "layout": {},
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(225, 213, 211)"
+            },
+            "minzoom": 16
+        },
+        {
+            "id": "microsoft.maps.base.base.Hospital building footprint",
+            "type": "fill",
+            "source-layer": "Hospital building",
+            "minzoom": 16,
+            "layout": {},
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(228, 220, 218)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Hotel building footprint",
+            "type": "fill",
+            "source-layer": "Hotel building",
+            "layout": {},
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(231, 231, 231)"
+            },
+            "minzoom": 16
+        },
+        {
+            "id": "microsoft.maps.base.base.Cultural Facility footprint",
+            "type": "fill",
+            "source-layer": "Cultural Facility",
+            "layout": {},
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(225, 213, 211)"
+            },
+            "minzoom": 16
+        },
+        {
+            "id": "microsoft.maps.base.base.Railway Station",
+            "type": "fill",
+            "source-layer": "Railway Station",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(209, 217, 225)",
+                "fill-opacity": 0.75
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Parking area",
+            "type": "fill",
+            "source-layer": "Parking area",
+            "minzoom": 15,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgba(230, 230, 230, 1)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Subway Station",
+            "type": "fill",
+            "source-layer": "Subway Station",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(192, 192, 192)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town hospital ground",
+            "type": "fill",
+            "source-layer": "Town hospital ground",
+            "maxzoom": 16,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(240, 226, 220)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Town shore",
+            "type": "fill",
+            "source-layer": "Town shore",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(167, 220, 178)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Meridian",
+            "type": "fill",
+            "source-layer": "Meridian",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(242, 242, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Sidewalk",
+            "type": "fill",
+            "source-layer": "Sidewalk",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(242, 242, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Breakwater",
+            "type": "fill",
+            "source-layer": "Breakwater",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(242, 242, 242)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Other water o",
+            "type": "line",
+            "source-layer": "Other water",
+            "minzoom": 7,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "line-color": "rgb(115, 161, 188)",
+                "line-width": {
+                    "stops": [
+                        [
+                            6,
+                            1
+                        ],
+                        [
+                            10,
+                            4
+                        ]
+                    ]
+                },
+                "line-blur": 3,
+                "line-offset": {
+                    "stops": [
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            10,
+                            0
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Other water",
+            "type": "fill",
+            "source-layer": "Other water",
+            "minzoom": 1,
+            "maxzoom": 24,
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)",
+                "fill-antialias": true,
+                "fill-translate": [
+                    0,
+                    0
+                ],
+                "fill-outline-color": "rgba(146, 199, 230, 1)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Intermittent water",
+            "type": "fill",
+            "source-layer": "Intermittent water",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Lake shadow",
+            "type": "fill",
+            "source-layer": "Lake",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "none"
+            },
+            "paint": {
+                "fill-color": "rgb(143, 202, 230)",
+                "fill-outline-color": "rgb(113, 160, 187)",
+                "fill-translate": [
+                    -0.64,
+                    -0.64
+                ]
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Lake",
+            "type": "fill",
+            "source-layer": "Lake",
+            "layout": {},
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)",
+                "fill-outline-color": "rgb(146, 199, 230)",
+                "fill-translate": [
+                    0.6,
+                    0.6
+                ]
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Ocean or sea",
+            "type": "fill",
+            "source-layer": "Ocean or sea",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Ocean",
+            "type": "fill",
+            "source-layer": "Ocean",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)",
+                "fill-outline-color": "rgb(146, 199, 230)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.Sea",
+            "type": "fill",
+            "source-layer": "Sea",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)"
+            }
+        },
+        {
+            "id": "microsoft.maps.base.base.River",
+            "type": "fill",
+            "source-layer": "River",
+            "metadata": {
+                "microsoft.maps:layerGroup": "base"
+            },
+            "paint": {
+                "fill-color": "rgb(146, 199, 230)"
+            }
+        }
+    ]
+}
