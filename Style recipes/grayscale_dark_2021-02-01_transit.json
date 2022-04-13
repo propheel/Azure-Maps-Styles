@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.transit.Toll major local road tunnel outline",
+            "id": "Toll major local road tunnel outline",
             "type": "line",
             "source-layer": "Toll major local road tunnel",
             "minzoom": 12,
@@ -60,7 +60,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road tunnel outline",
+            "id": "Major local road tunnel outline",
             "type": "line",
             "source-layer": "Major local road tunnel",
             "minzoom": 12,
@@ -119,7 +119,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road tunnel outline",
+            "id": "Toll secondary road tunnel outline",
             "type": "line",
             "source-layer": "Toll secondary road tunnel",
             "minzoom": 9,
@@ -213,7 +213,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road tunnel outline",
+            "id": "Secondary road tunnel outline",
             "type": "line",
             "source-layer": "Secondary road tunnel",
             "minzoom": 9,
@@ -303,7 +303,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road tunnel outline",
+            "id": "Toll major road tunnel outline",
             "type": "line",
             "source-layer": "Toll major road tunnel",
             "minzoom": 7,
@@ -389,7 +389,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road tunnel outline",
+            "id": "Major road tunnel outline",
             "type": "line",
             "source-layer": "Major road tunnel",
             "minzoom": 7,
@@ -475,7 +475,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road tunnel outline",
+            "id": "Toll local road tunnel outline",
             "type": "line",
             "source-layer": "Toll local road tunnel",
             "minzoom": 15,
@@ -522,7 +522,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road tunnel outline",
+            "id": "Toll minor local road tunnel outline",
             "type": "line",
             "source-layer": "Toll minor local road tunnel",
             "minzoom": 15,
@@ -569,7 +569,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road tunnel outline",
+            "id": "Local road tunnel outline",
             "type": "line",
             "source-layer": "Local road tunnel",
             "minzoom": 15,
@@ -616,7 +616,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road tunnel outline",
+            "id": "Toll connecting road tunnel outline",
             "type": "line",
             "source-layer": "Toll connecting road tunnel",
             "minzoom": 10,
@@ -734,7 +734,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road tunnel outline",
+            "id": "Connecting road tunnel outline",
             "type": "line",
             "source-layer": "Connecting road tunnel",
             "minzoom": 10,
@@ -801,7 +801,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road tunnel outline",
+            "id": "International road tunnel outline",
             "type": "line",
             "source-layer": "International road tunnel",
             "minzoom": 5,
@@ -888,7 +888,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road tunnel outline",
+            "id": "Toll international road tunnel outline",
             "type": "line",
             "source-layer": "Toll international road tunnel",
             "minzoom": 5,
@@ -1019,7 +1019,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway tunnel outline (zoom >= 13)",
+            "id": "Motorway tunnel outline (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway tunnel",
             "minzoom": 13,
@@ -1106,7 +1106,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway tunnel outline (zoom >= 13)",
+            "id": "Toll motorway tunnel outline (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway tunnel",
             "minzoom": 13,
@@ -1237,7 +1237,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road tunnel",
+            "id": "Minor local road tunnel",
             "type": "line",
             "source-layer": "Minor local road tunnel",
             "minzoom": 15,
@@ -1296,7 +1296,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road tunnel",
+            "id": "Toll local road tunnel",
             "type": "line",
             "source-layer": "Toll local road tunnel",
             "minzoom": 13,
@@ -1365,7 +1365,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road tunnel",
+            "id": "Local road tunnel",
             "type": "line",
             "source-layer": "Local road tunnel",
             "minzoom": 13,
@@ -1434,7 +1434,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road tunnel",
+            "id": "Toll major local road tunnel",
             "type": "line",
             "source-layer": "Toll major local road tunnel",
             "minzoom": 11,
@@ -1511,7 +1511,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road tunnel",
+            "id": "Major local road tunnel",
             "type": "line",
             "source-layer": "Major local road tunnel",
             "minzoom": 11,
@@ -1588,7 +1588,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road tunnel",
+            "id": "Toll connecting road tunnel",
             "type": "line",
             "source-layer": "Toll connecting road tunnel",
             "minzoom": 10,
@@ -1678,7 +1678,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road tunnel",
+            "id": "Connecting road tunnel",
             "type": "line",
             "source-layer": "Connecting road tunnel",
             "minzoom": 10,
@@ -1745,7 +1745,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road tunnel",
+            "id": "Toll secondary road tunnel",
             "type": "line",
             "source-layer": "Toll secondary road tunnel",
             "minzoom": 9,
@@ -1835,7 +1835,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road tunnel",
+            "id": "Secondary road tunnel",
             "type": "line",
             "source-layer": "Secondary road tunnel",
             "minzoom": 9,
@@ -1925,7 +1925,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road tunnel",
+            "id": "Toll major road tunnel",
             "type": "line",
             "source-layer": "Toll major road tunnel",
             "minzoom": 7,
@@ -2015,7 +2015,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road tunnel",
+            "id": "Major road tunnel",
             "type": "line",
             "source-layer": "Major road tunnel",
             "minzoom": 7,
@@ -2097,7 +2097,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road tunnel",
+            "id": "Toll international road tunnel",
             "type": "line",
             "source-layer": "Toll international road tunnel",
             "minzoom": 5,
@@ -2185,7 +2185,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road tunnel",
+            "id": "International road tunnel",
             "type": "line",
             "source-layer": "International road tunnel",
             "minzoom": 12,
@@ -2273,7 +2273,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway tunnel outline (zoom < 13)",
+            "id": "Motorway tunnel outline (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway tunnel",
             "minzoom": 5,
@@ -2360,7 +2360,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway tunnel",
+            "id": "Motorway tunnel",
             "type": "line",
             "source-layer": "Motorway tunnel",
             "minzoom": 5,
@@ -2447,7 +2447,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway tunnel outline (zoom < 13)",
+            "id": "Toll motorway tunnel outline (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway tunnel",
             "minzoom": 10,
@@ -2578,7 +2578,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway tunnel",
+            "id": "Toll motorway tunnel",
             "type": "line",
             "source-layer": "Toll motorway tunnel",
             "minzoom": 5,
@@ -2665,7 +2665,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road tunnel arrow",
+            "id": "Connecting road tunnel arrow",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "minzoom": 15,
@@ -2735,7 +2735,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road tunnel arrow reverse",
+            "id": "Connecting road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "minzoom": 15,
@@ -2805,7 +2805,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Connecting road tunnel arrow",
+            "id": "Toll Connecting road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Connecting road tunnel",
             "minzoom": 15,
@@ -2875,7 +2875,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Connecting road tunnel arrow reverse",
+            "id": "Toll Connecting road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Connecting road tunnel",
             "minzoom": 15,
@@ -2945,7 +2945,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road tunnel arrow",
+            "id": "International road tunnel arrow",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "minzoom": 15,
@@ -3015,7 +3015,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road tunnel arrow reverse",
+            "id": "International road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "minzoom": 15,
@@ -3085,7 +3085,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll International road tunnel arrow",
+            "id": "Toll International road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll International road tunnel",
             "minzoom": 15,
@@ -3155,7 +3155,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll International road tunnel arrow reverse",
+            "id": "Toll International road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll International road tunnel",
             "minzoom": 15,
@@ -3225,7 +3225,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road tunnel arrow",
+            "id": "Major road tunnel arrow",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "minzoom": 15,
@@ -3295,7 +3295,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road tunnel arrow reverse",
+            "id": "Major road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "minzoom": 15,
@@ -3365,7 +3365,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major road tunnel arrow",
+            "id": "Toll Major road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Major road tunnel",
             "minzoom": 15,
@@ -3435,7 +3435,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major road tunnel arrow reverse",
+            "id": "Toll Major road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Major road tunnel",
             "minzoom": 15,
@@ -3505,7 +3505,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road tunnel arrow",
+            "id": "Major local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "minzoom": 15,
@@ -3575,7 +3575,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road tunnel arrow reverse",
+            "id": "Major local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "minzoom": 15,
@@ -3645,7 +3645,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major local road tunnel arrow",
+            "id": "Toll Major local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Major local road tunnel",
             "minzoom": 15,
@@ -3715,7 +3715,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major local road tunnel arrow reverse",
+            "id": "Toll Major local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Major local road tunnel",
             "minzoom": 15,
@@ -3785,7 +3785,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road tunnel arrow",
+            "id": "Local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "minzoom": 15,
@@ -3855,7 +3855,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road tunnel arrow reverse",
+            "id": "Local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "minzoom": 15,
@@ -3925,7 +3925,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Local road tunnel arrow",
+            "id": "Toll Local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Local road tunnel",
             "minzoom": 15,
@@ -3995,7 +3995,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Local road tunnel arrow reverse",
+            "id": "Toll Local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Local road tunnel",
             "minzoom": 15,
@@ -4065,7 +4065,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road tunnel arrow",
+            "id": "Secondary road tunnel arrow",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "minzoom": 15,
@@ -4135,7 +4135,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road tunnel arrow reverse",
+            "id": "Secondary road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "minzoom": 15,
@@ -4205,7 +4205,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Secondary road tunnel arrow",
+            "id": "Toll Secondary road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Secondary road tunnel",
             "minzoom": 15,
@@ -4275,7 +4275,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Secondary road tunnel arrow reverse",
+            "id": "Toll Secondary road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Secondary road tunnel",
             "minzoom": 15,
@@ -4345,7 +4345,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road tunnel arrow",
+            "id": "Minor local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "minzoom": 15,
@@ -4415,7 +4415,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road tunnel arrow reverse",
+            "id": "Minor local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "minzoom": 15,
@@ -4485,7 +4485,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Minor local road tunnel arrow",
+            "id": "Toll Minor local road tunnel arrow",
             "type": "symbol",
             "source-layer": "Toll Minor local road tunnel",
             "minzoom": 15,
@@ -4555,7 +4555,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Minor local road tunnel arrow reverse",
+            "id": "Toll Minor local road tunnel arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Minor local road tunnel",
             "minzoom": 15,
@@ -4625,7 +4625,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Railway outline",
+            "id": "Railway outline",
             "type": "line",
             "source-layer": "Railway",
             "metadata": {
@@ -4666,7 +4666,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Railway",
+            "id": "Railway",
             "type": "line",
             "source-layer": "Railway",
             "metadata": {
@@ -4712,7 +4712,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level-2",
+            "id": "Connecting road outline - level-2",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -4784,7 +4784,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level-2",
+            "id": "Local road outline - level-2",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -4836,7 +4836,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level-2",
+            "id": "Non public road outline - level-2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -4892,7 +4892,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level-2",
+            "id": "Pedestrian road outline - level-2",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -4948,7 +4948,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level-2",
+            "id": "Toll minor local road outline - level-2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -5000,7 +5000,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level-2",
+            "id": "Minor local road outline - level-2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -5052,7 +5052,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level-2",
+            "id": "Toll major local road outline - level-2",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -5116,7 +5116,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level-2",
+            "id": "Major local road outline - level-2",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -5180,7 +5180,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level-2",
+            "id": "Secondary road outline - level-2",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -5264,7 +5264,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level-2",
+            "id": "Toll secondary road outline - level-2",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -5352,7 +5352,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level-2",
+            "id": "Toll major road outline - level-2",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -5479,7 +5479,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level-2",
+            "id": "Major road outline - level-2",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -5570,7 +5570,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level-2",
+            "id": "Parking road outline - level-2",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -5618,7 +5618,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level-2",
+            "id": "Toll local road outline - level-2",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -5670,7 +5670,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level-2",
+            "id": "Toll connecting road outline - level-2",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -5778,7 +5778,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level-2",
+            "id": "International road outline - level-2",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -5870,7 +5870,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level-2",
+            "id": "Toll international road outline - level-2",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -6012,7 +6012,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level-2 (zoom >= 13)",
+            "id": "Motorway outline - level-2 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -6104,7 +6104,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level-2 (zoom >= 13)",
+            "id": "Toll motorway outline - level-2 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -6252,7 +6252,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level-2",
+            "id": "Non public road 11 - level-2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -6308,7 +6308,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level-2",
+            "id": "Non public road 15 - level-2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -6364,7 +6364,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level-2",
+            "id": "Pedestrian road - level-2",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -6410,7 +6410,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level-2",
+            "id": "Walkway road - level-2",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -6456,7 +6456,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level-2",
+            "id": "Parking road - level-2",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -6504,7 +6504,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level-2",
+            "id": "Minor local road - level-2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -6556,7 +6556,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level-2",
+            "id": "Toll local road - level-2",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -6619,7 +6619,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level-2",
+            "id": "Local road - level-2",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 13,
@@ -6682,7 +6682,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level-2",
+            "id": "Toll major local road - level-2",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -6749,7 +6749,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level-2",
+            "id": "Major local road - level-2",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -6816,7 +6816,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level-2",
+            "id": "Toll connecting road - level-2",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -6888,7 +6888,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level-2",
+            "id": "Connecting road - level-2",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -6960,7 +6960,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level-2",
+            "id": "Toll secondary road - level-2",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -7048,7 +7048,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level-2",
+            "id": "Secondary road - level-2",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -7136,7 +7136,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level-2",
+            "id": "Toll major road - level-2",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -7223,7 +7223,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level-2",
+            "id": "Major road - level-2",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -7310,7 +7310,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level-2",
+            "id": "International road - level-2",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -7402,7 +7402,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level-2",
+            "id": "Toll international road - level-2",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -7494,7 +7494,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level-2 (zoom < 13)",
+            "id": "Toll motorway outline - level-2 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -7642,7 +7642,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level-2",
+            "id": "Toll motorway - level-2",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -7734,7 +7734,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level-2 (zoom < 13)",
+            "id": "Motorway outline - level-2 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -7826,7 +7826,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level-2",
+            "id": "Motorway - level-2",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -7918,7 +7918,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level-2",
+            "id": "Connecting road arrow - level-2",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -7986,7 +7986,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level-2",
+            "id": "Connecting arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -8064,7 +8064,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level-2",
+            "id": "International road arrow - level-2",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -8132,7 +8132,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level-2",
+            "id": "International arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -8210,7 +8210,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level-2",
+            "id": "Major road arrow - level-2",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -8278,7 +8278,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level-2",
+            "id": "Major arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -8356,7 +8356,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level-2",
+            "id": "Major local road arrow - level-2",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -8424,7 +8424,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level-2",
+            "id": "Major local arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -8502,7 +8502,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level-2",
+            "id": "Local road arrow - level-2",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -8570,7 +8570,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level-2",
+            "id": "Local arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -8648,7 +8648,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level-2",
+            "id": "Secondary road arrow - level-2",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -8716,7 +8716,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level-2",
+            "id": "Secondary arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -8794,7 +8794,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level-2",
+            "id": "Minor local road arrow - level-2",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -8862,7 +8862,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level-2",
+            "id": "Minor local arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -8940,7 +8940,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level-2",
+            "id": "Motorway arrow - level-2",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -8969,7 +8969,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level-2",
+            "id": "Motorway arrow reverse - level-2",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -8998,7 +8998,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level-1",
+            "id": "Connecting road outline - level-1",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -9070,7 +9070,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level-1",
+            "id": "Local road outline - level-1",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -9122,7 +9122,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level-1",
+            "id": "Non public road outline - level-1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -9178,7 +9178,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level-1",
+            "id": "Pedestrian road outline - level-1",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -9234,7 +9234,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level-1",
+            "id": "Toll minor local road outline - level-1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -9286,7 +9286,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level-1",
+            "id": "Minor local road outline - level-1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -9338,7 +9338,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level-1",
+            "id": "Toll major local road outline - level-1",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -9402,7 +9402,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level-1",
+            "id": "Major local road outline - level-1",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -9466,7 +9466,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level-1",
+            "id": "Secondary road outline - level-1",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -9550,7 +9550,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level-1",
+            "id": "Toll secondary road outline - level-1",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -9638,7 +9638,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level-1",
+            "id": "Toll major road outline - level-1",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -9765,7 +9765,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level-1",
+            "id": "Major road outline - level-1",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -9856,7 +9856,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level-1",
+            "id": "Parking road outline - level-1",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -9904,7 +9904,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level-1",
+            "id": "Toll local road outline - level-1",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -9956,7 +9956,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level-1",
+            "id": "Toll connecting road outline - level-1",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -10064,7 +10064,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level-1",
+            "id": "International road outline - level-1",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -10156,7 +10156,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level-1",
+            "id": "Toll international road outline - level-1",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -10298,7 +10298,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level-1 (zoom >= 13)",
+            "id": "Motorway outline - level-1 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -10390,7 +10390,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level-1 (zoom >= 13)",
+            "id": "Toll motorway outline - level-1 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -10538,7 +10538,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level-1",
+            "id": "Non public road 11 - level-1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -10594,7 +10594,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level-1",
+            "id": "Non public road 15 - level-1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -10650,7 +10650,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level-1",
+            "id": "Pedestrian road - level-1",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -10696,7 +10696,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level-1",
+            "id": "Walkway road - level-1",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -10742,7 +10742,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level-1",
+            "id": "Parking road - level-1",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -10790,7 +10790,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level-1",
+            "id": "Minor local road - level-1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -10842,7 +10842,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level-1",
+            "id": "Toll local road - level-1",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -10905,7 +10905,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level-1",
+            "id": "Local road - level-1",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 13,
@@ -10968,7 +10968,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level-1",
+            "id": "Toll major local road - level-1",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -11035,7 +11035,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level-1",
+            "id": "Major local road - level-1",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -11102,7 +11102,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level-1",
+            "id": "Toll connecting road - level-1",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -11174,7 +11174,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level-1",
+            "id": "Connecting road - level-1",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -11246,7 +11246,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level-1",
+            "id": "Toll secondary road - level-1",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -11334,7 +11334,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level-1",
+            "id": "Secondary road - level-1",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -11422,7 +11422,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level-1",
+            "id": "Toll major road - level-1",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -11509,7 +11509,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level-1",
+            "id": "Major road - level-1",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -11596,7 +11596,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level-1",
+            "id": "International road - level-1",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -11688,7 +11688,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level-1",
+            "id": "Toll international road - level-1",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -11780,7 +11780,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level-1 (zoom < 13)",
+            "id": "Toll motorway outline - level-1 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -11928,7 +11928,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level-1",
+            "id": "Toll motorway - level-1",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -12020,7 +12020,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level-1 (zoom < 13)",
+            "id": "Motorway outline - level-1 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -12112,7 +12112,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level-1",
+            "id": "Motorway - level-1",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -12204,7 +12204,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level-1",
+            "id": "Connecting road arrow - level-1",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -12272,7 +12272,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level-1",
+            "id": "Connecting arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -12350,7 +12350,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level-1",
+            "id": "International road arrow - level-1",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -12418,7 +12418,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level-1",
+            "id": "International arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -12496,7 +12496,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level-1",
+            "id": "Major road arrow - level-1",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -12564,7 +12564,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level-1",
+            "id": "Major arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -12642,7 +12642,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level-1",
+            "id": "Major local road arrow - level-1",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -12710,7 +12710,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level-1",
+            "id": "Major local arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -12788,7 +12788,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level-1",
+            "id": "Local road arrow - level-1",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -12856,7 +12856,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level-1",
+            "id": "Local arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -12934,7 +12934,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level-1",
+            "id": "Secondary road arrow - level-1",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -13002,7 +13002,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level-1",
+            "id": "Secondary arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -13080,7 +13080,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level-1",
+            "id": "Minor local road arrow - level-1",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -13148,7 +13148,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level-1",
+            "id": "Minor local arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -13226,7 +13226,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level-1",
+            "id": "Motorway arrow - level-1",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -13255,7 +13255,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level-1",
+            "id": "Motorway arrow reverse - level-1",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -13284,7 +13284,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level0",
+            "id": "Connecting road outline - level0",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -13355,7 +13355,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level0",
+            "id": "Local road outline - level0",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -13406,7 +13406,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level0",
+            "id": "Non public road outline - level0",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -13461,7 +13461,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level0",
+            "id": "Pedestrian road outline - level0",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -13516,7 +13516,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level0",
+            "id": "Toll minor local road outline - level0",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -13567,7 +13567,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level0",
+            "id": "Minor local road outline - level0",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -13618,7 +13618,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level0",
+            "id": "Toll major local road outline - level0",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -13681,7 +13681,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level0",
+            "id": "Major local road outline - level0",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -13744,7 +13744,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level0",
+            "id": "Secondary road outline - level0",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -13827,7 +13827,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level0",
+            "id": "Toll secondary road outline - level0",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -13914,7 +13914,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level0",
+            "id": "Toll major road outline - level0",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -14040,7 +14040,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level0",
+            "id": "Major road outline - level0",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -14130,7 +14130,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level0",
+            "id": "Parking road outline - level0",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -14177,7 +14177,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level0",
+            "id": "Toll local road outline - level0",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -14228,7 +14228,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level0",
+            "id": "Toll connecting road outline - level0",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -14335,7 +14335,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level0",
+            "id": "International road outline - level0",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -14426,7 +14426,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level0",
+            "id": "Toll international road outline - level0",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -14567,7 +14567,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level0 (zoom >= 13)",
+            "id": "Motorway outline - level0 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -14658,7 +14658,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level0 (zoom >= 13)",
+            "id": "Toll motorway outline - level0 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -14805,7 +14805,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level0",
+            "id": "Non public road 11 - level0",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -14860,7 +14860,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level0",
+            "id": "Non public road 15 - level0",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -14915,7 +14915,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level0",
+            "id": "Pedestrian road - level0",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -14960,7 +14960,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level0",
+            "id": "Walkway road - level0",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -15005,7 +15005,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level0",
+            "id": "Parking road - level0",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -15052,7 +15052,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level0",
+            "id": "Minor local road - level0",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -15103,7 +15103,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level0",
+            "id": "Toll local road - level0",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -15165,7 +15165,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level0",
+            "id": "Local road - level0",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 12,
@@ -15227,7 +15227,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level0",
+            "id": "Toll major local road - level0",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -15293,7 +15293,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level0",
+            "id": "Major local road - level0",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -15359,7 +15359,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level0",
+            "id": "Toll connecting road - level0",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -15430,7 +15430,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level0",
+            "id": "Connecting road - level0",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -15501,7 +15501,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level0",
+            "id": "Toll secondary road - level0",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -15588,7 +15588,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level0",
+            "id": "Secondary road - level0",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -15675,7 +15675,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level0",
+            "id": "Toll major road - level0",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -15761,7 +15761,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level0",
+            "id": "Major road - level0",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -15847,7 +15847,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level0",
+            "id": "International road - level0",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -15938,7 +15938,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level0",
+            "id": "Toll international road - level0",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -16029,7 +16029,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level0 (zoom < 13)",
+            "id": "Toll motorway outline - level0 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -16176,7 +16176,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level0",
+            "id": "Toll motorway - level0",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -16267,7 +16267,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level0 (zoom < 13)",
+            "id": "Motorway outline - level0 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -16358,7 +16358,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level0",
+            "id": "Motorway - level0",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -16449,7 +16449,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level0",
+            "id": "Connecting road arrow - level0",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -16516,7 +16516,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level0",
+            "id": "Connecting arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -16593,7 +16593,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Connecting road arrow",
+            "id": "Toll Connecting road arrow",
             "type": "symbol",
             "source-layer": "Toll Connecting road",
             "minzoom": 15,
@@ -16663,7 +16663,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Connecting road arrow reverse",
+            "id": "Toll Connecting road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Connecting road",
             "minzoom": 15,
@@ -16733,7 +16733,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level0",
+            "id": "International road arrow - level0",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -16800,7 +16800,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level0",
+            "id": "International arrow reverse - level0",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -16877,7 +16877,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll International road arrow",
+            "id": "Toll International road arrow",
             "type": "symbol",
             "source-layer": "Toll International road",
             "minzoom": 15,
@@ -16947,7 +16947,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll International road arrow reverse",
+            "id": "Toll International road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll International road",
             "minzoom": 15,
@@ -17017,7 +17017,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level0",
+            "id": "Major road arrow - level0",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -17084,7 +17084,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level0",
+            "id": "Major arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -17161,7 +17161,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major road arrow",
+            "id": "Toll Major road arrow",
             "type": "symbol",
             "source-layer": "Toll Major road",
             "minzoom": 15,
@@ -17231,7 +17231,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major road arrow reverse",
+            "id": "Toll Major road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Major road",
             "minzoom": 15,
@@ -17301,7 +17301,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level0",
+            "id": "Major local road arrow - level0",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -17368,7 +17368,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level0",
+            "id": "Major local arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -17445,7 +17445,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major local road arrow",
+            "id": "Toll Major local road arrow",
             "type": "symbol",
             "source-layer": "Toll Major local road",
             "minzoom": 15,
@@ -17515,7 +17515,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Major local road arrow reverse",
+            "id": "Toll Major local road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Major local road",
             "minzoom": 15,
@@ -17585,7 +17585,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level0",
+            "id": "Local road arrow - level0",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -17652,7 +17652,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level0",
+            "id": "Local arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -17729,7 +17729,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Local road arrow",
+            "id": "Toll Local road arrow",
             "type": "symbol",
             "source-layer": "Toll Local road",
             "minzoom": 15,
@@ -17799,7 +17799,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Local road arrow reverse",
+            "id": "Toll Local road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Local road",
             "minzoom": 15,
@@ -17869,7 +17869,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level0",
+            "id": "Secondary road arrow - level0",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -17936,7 +17936,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level0",
+            "id": "Secondary arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -18013,7 +18013,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Secondary road arrow",
+            "id": "Toll Secondary road arrow",
             "type": "symbol",
             "source-layer": "Toll Secondary road",
             "minzoom": 15,
@@ -18083,7 +18083,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Secondary road arrow reverse",
+            "id": "Toll Secondary road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Secondary road",
             "minzoom": 15,
@@ -18153,7 +18153,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level0",
+            "id": "Minor local road arrow - level0",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -18220,7 +18220,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level0",
+            "id": "Minor local arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -18297,7 +18297,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Minor local road arrow",
+            "id": "Toll Minor local road arrow",
             "type": "symbol",
             "source-layer": "Toll Minor local road",
             "minzoom": 15,
@@ -18367,7 +18367,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll Minor local road arrow reverse",
+            "id": "Toll Minor local road arrow reverse",
             "type": "symbol",
             "source-layer": "Toll Minor local road",
             "minzoom": 15,
@@ -18437,7 +18437,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level0",
+            "id": "Motorway arrow - level0",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -18465,7 +18465,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level0",
+            "id": "Motorway arrow reverse - level0",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -18493,7 +18493,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level+1",
+            "id": "Connecting road outline - level+1",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -18565,7 +18565,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level+1",
+            "id": "Local road outline - level+1",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -18617,7 +18617,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level+1",
+            "id": "Non public road outline - level+1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -18673,7 +18673,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level+1",
+            "id": "Pedestrian road outline - level+1",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -18729,7 +18729,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level+1",
+            "id": "Toll minor local road outline - level+1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -18781,7 +18781,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level+1",
+            "id": "Minor local road outline - level+1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -18833,7 +18833,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level+1",
+            "id": "Toll major local road outline - level+1",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -18897,7 +18897,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level+1",
+            "id": "Major local road outline - level+1",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -18961,7 +18961,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level+1",
+            "id": "Secondary road outline - level+1",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -19045,7 +19045,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level+1",
+            "id": "Toll secondary road outline - level+1",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -19133,7 +19133,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level+1",
+            "id": "Toll major road outline - level+1",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -19260,7 +19260,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level+1",
+            "id": "Major road outline - level+1",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -19351,7 +19351,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level+1",
+            "id": "Parking road outline - level+1",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -19399,7 +19399,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level+1",
+            "id": "Toll local road outline - level+1",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -19451,7 +19451,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level+1",
+            "id": "Toll connecting road outline - level+1",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -19559,7 +19559,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level+1",
+            "id": "International road outline - level+1",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -19651,7 +19651,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level+1",
+            "id": "Toll international road outline - level+1",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -19793,7 +19793,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+1 (zoom >= 13)",
+            "id": "Motorway outline - level+1 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -19885,7 +19885,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+1 (zoom >= 13)",
+            "id": "Toll motorway outline - level+1 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -20033,7 +20033,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level+1",
+            "id": "Non public road 11 - level+1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -20089,7 +20089,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level+1",
+            "id": "Non public road 15 - level+1",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -20145,7 +20145,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level+1",
+            "id": "Pedestrian road - level+1",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -20191,7 +20191,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level+1",
+            "id": "Walkway road - level+1",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -20237,7 +20237,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level+1",
+            "id": "Parking road - level+1",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -20285,7 +20285,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level+1",
+            "id": "Minor local road - level+1",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -20337,7 +20337,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level+1",
+            "id": "Toll local road - level+1",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -20400,7 +20400,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level+1",
+            "id": "Local road - level+1",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 13,
@@ -20463,7 +20463,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level+1",
+            "id": "Toll major local road - level+1",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -20530,7 +20530,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level+1",
+            "id": "Major local road - level+1",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -20597,7 +20597,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level+1",
+            "id": "Toll connecting road - level+1",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -20669,7 +20669,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level+1",
+            "id": "Connecting road - level+1",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -20741,7 +20741,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level+1",
+            "id": "Toll secondary road - level+1",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -20829,7 +20829,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level+1",
+            "id": "Secondary road - level+1",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -20917,7 +20917,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level+1",
+            "id": "Toll major road - level+1",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -21004,7 +21004,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level+1",
+            "id": "Major road - level+1",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -21091,7 +21091,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level+1",
+            "id": "International road - level+1",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -21183,7 +21183,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level+1",
+            "id": "Toll international road - level+1",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -21275,7 +21275,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+1 (zoom < 13)",
+            "id": "Toll motorway outline - level+1 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -21423,7 +21423,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level+1",
+            "id": "Toll motorway - level+1",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -21515,7 +21515,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+1 (zoom < 13)",
+            "id": "Motorway outline - level+1 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -21607,7 +21607,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level+1",
+            "id": "Motorway - level+1",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -21699,7 +21699,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level+1",
+            "id": "Connecting road arrow - level+1",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -21767,7 +21767,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level+1",
+            "id": "Connecting arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -21845,7 +21845,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level+1",
+            "id": "International road arrow - level+1",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -21913,7 +21913,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level+1",
+            "id": "International arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -21991,7 +21991,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level+1",
+            "id": "Major road arrow - level+1",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -22059,7 +22059,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level+1",
+            "id": "Major arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -22137,7 +22137,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level+1",
+            "id": "Major local road arrow - level+1",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -22205,7 +22205,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level+1",
+            "id": "Major local arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -22283,7 +22283,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level+1",
+            "id": "Local road arrow - level+1",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -22351,7 +22351,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level+1",
+            "id": "Local arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -22429,7 +22429,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level+1",
+            "id": "Secondary road arrow - level+1",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -22497,7 +22497,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level+1",
+            "id": "Secondary arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -22575,7 +22575,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level+1",
+            "id": "Minor local road arrow - level+1",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -22643,7 +22643,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level+1",
+            "id": "Minor local arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -22721,7 +22721,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level+1",
+            "id": "Motorway arrow - level+1",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -22750,7 +22750,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level+1",
+            "id": "Motorway arrow reverse - level+1",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -22779,7 +22779,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level+2",
+            "id": "Connecting road outline - level+2",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -22851,7 +22851,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level+2",
+            "id": "Local road outline - level+2",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -22903,7 +22903,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level+2",
+            "id": "Non public road outline - level+2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -22959,7 +22959,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level+2",
+            "id": "Pedestrian road outline - level+2",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -23015,7 +23015,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level+2",
+            "id": "Toll minor local road outline - level+2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -23067,7 +23067,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level+2",
+            "id": "Minor local road outline - level+2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -23119,7 +23119,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level+2",
+            "id": "Toll major local road outline - level+2",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -23183,7 +23183,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level+2",
+            "id": "Major local road outline - level+2",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -23247,7 +23247,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level+2",
+            "id": "Secondary road outline - level+2",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -23331,7 +23331,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level+2",
+            "id": "Toll secondary road outline - level+2",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -23419,7 +23419,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level+2",
+            "id": "Toll major road outline - level+2",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -23546,7 +23546,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level+2",
+            "id": "Major road outline - level+2",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -23637,7 +23637,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level+2",
+            "id": "Parking road outline - level+2",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -23685,7 +23685,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level+2",
+            "id": "Toll local road outline - level+2",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -23737,7 +23737,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level+2",
+            "id": "Toll connecting road outline - level+2",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -23845,7 +23845,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level+2",
+            "id": "International road outline - level+2",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -23937,7 +23937,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level+2",
+            "id": "Toll international road outline - level+2",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -24079,7 +24079,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+2 (zoom >= 13)",
+            "id": "Motorway outline - level+2 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -24171,7 +24171,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+2 (zoom >= 13)",
+            "id": "Toll motorway outline - level+2 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -24319,7 +24319,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level+2",
+            "id": "Non public road 11 - level+2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -24375,7 +24375,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level+2",
+            "id": "Non public road 15 - level+2",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -24431,7 +24431,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level+2",
+            "id": "Pedestrian road - level+2",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -24477,7 +24477,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level+2",
+            "id": "Walkway road - level+2",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -24523,7 +24523,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level+2",
+            "id": "Parking road - level+2",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -24571,7 +24571,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level+2",
+            "id": "Minor local road - level+2",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -24623,7 +24623,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level+2",
+            "id": "Toll local road - level+2",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -24686,7 +24686,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level+2",
+            "id": "Local road - level+2",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 13,
@@ -24749,7 +24749,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level+2",
+            "id": "Toll major local road - level+2",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -24816,7 +24816,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level+2",
+            "id": "Major local road - level+2",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -24883,7 +24883,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level+2",
+            "id": "Toll connecting road - level+2",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -24955,7 +24955,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level+2",
+            "id": "Connecting road - level+2",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -25027,7 +25027,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level+2",
+            "id": "Toll secondary road - level+2",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -25115,7 +25115,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level+2",
+            "id": "Secondary road - level+2",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -25203,7 +25203,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level+2",
+            "id": "Toll major road - level+2",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -25290,7 +25290,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level+2",
+            "id": "Major road - level+2",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -25377,7 +25377,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level+2",
+            "id": "International road - level+2",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -25469,7 +25469,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level+2",
+            "id": "Toll international road - level+2",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -25561,7 +25561,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+2 (zoom < 13)",
+            "id": "Toll motorway outline - level+2 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -25709,7 +25709,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level+2",
+            "id": "Toll motorway - level+2",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -25801,7 +25801,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+2 (zoom < 13)",
+            "id": "Motorway outline - level+2 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -25893,7 +25893,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level+2",
+            "id": "Motorway - level+2",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -25985,7 +25985,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level+2",
+            "id": "Connecting road arrow - level+2",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -26053,7 +26053,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level+2",
+            "id": "Connecting arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -26131,7 +26131,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level+2",
+            "id": "International road arrow - level+2",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -26199,7 +26199,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level+2",
+            "id": "International arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -26277,7 +26277,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level+2",
+            "id": "Major road arrow - level+2",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -26345,7 +26345,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level+2",
+            "id": "Major arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -26423,7 +26423,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level+2",
+            "id": "Major local road arrow - level+2",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -26491,7 +26491,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level+2",
+            "id": "Major local arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -26569,7 +26569,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level+2",
+            "id": "Local road arrow - level+2",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -26637,7 +26637,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level+2",
+            "id": "Local arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -26715,7 +26715,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level+2",
+            "id": "Secondary road arrow - level+2",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -26783,7 +26783,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level+2",
+            "id": "Secondary arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -26861,7 +26861,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level+2",
+            "id": "Minor local road arrow - level+2",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -26929,7 +26929,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level+2",
+            "id": "Minor local arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -27007,7 +27007,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level+2",
+            "id": "Motorway arrow - level+2",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -27036,7 +27036,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level+2",
+            "id": "Motorway arrow reverse - level+2",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -27065,7 +27065,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road outline - level+3",
+            "id": "Connecting road outline - level+3",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -27137,7 +27137,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road outline - level+3",
+            "id": "Local road outline - level+3",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -27189,7 +27189,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road outline - level+3",
+            "id": "Non public road outline - level+3",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 13,
@@ -27245,7 +27245,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road outline - level+3",
+            "id": "Pedestrian road outline - level+3",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -27301,7 +27301,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll minor local road outline - level+3",
+            "id": "Toll minor local road outline - level+3",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -27353,7 +27353,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road outline - level+3",
+            "id": "Minor local road outline - level+3",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -27405,7 +27405,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road outline - level+3",
+            "id": "Toll major local road outline - level+3",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 12,
@@ -27469,7 +27469,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road outline - level+3",
+            "id": "Major local road outline - level+3",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 12,
@@ -27533,7 +27533,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road outline - level+3",
+            "id": "Secondary road outline - level+3",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -27617,7 +27617,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road outline - level+3",
+            "id": "Toll secondary road outline - level+3",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -27705,7 +27705,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road outline - level+3",
+            "id": "Toll major road outline - level+3",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -27832,7 +27832,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road outline - level+3",
+            "id": "Major road outline - level+3",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -27923,7 +27923,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road outline - level+3",
+            "id": "Parking road outline - level+3",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -27971,7 +27971,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road outline - level+3",
+            "id": "Toll local road outline - level+3",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 15,
@@ -28023,7 +28023,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road outline - level+3",
+            "id": "Toll connecting road outline - level+3",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -28131,7 +28131,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road outline - level+3",
+            "id": "International road outline - level+3",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -28223,7 +28223,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road outline - level+3",
+            "id": "Toll international road outline - level+3",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -28365,7 +28365,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+3 (zoom >= 13)",
+            "id": "Motorway outline - level+3 (zoom >= 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 13,
@@ -28457,7 +28457,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+3 (zoom >= 13)",
+            "id": "Toll motorway outline - level+3 (zoom >= 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 13,
@@ -28605,7 +28605,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 11 - level+3",
+            "id": "Non public road 11 - level+3",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 14,
@@ -28661,7 +28661,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Non public road 15 - level+3",
+            "id": "Non public road 15 - level+3",
             "type": "line",
             "source-layer": "Non public road",
             "minzoom": 15,
@@ -28717,7 +28717,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Pedestrian road - level+3",
+            "id": "Pedestrian road - level+3",
             "type": "line",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -28763,7 +28763,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Walkway road - level+3",
+            "id": "Walkway road - level+3",
             "type": "line",
             "source-layer": "Walkway road",
             "minzoom": 15,
@@ -28809,7 +28809,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Parking road - level+3",
+            "id": "Parking road - level+3",
             "type": "line",
             "source-layer": "Parking road",
             "minzoom": 15,
@@ -28857,7 +28857,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road - level+3",
+            "id": "Minor local road - level+3",
             "type": "line",
             "source-layer": "Minor local road",
             "minzoom": 14,
@@ -28909,7 +28909,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll local road - level+3",
+            "id": "Toll local road - level+3",
             "type": "line",
             "source-layer": "Toll local road",
             "minzoom": 13,
@@ -28972,7 +28972,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road - level+3",
+            "id": "Local road - level+3",
             "type": "line",
             "source-layer": "Local road",
             "minzoom": 13,
@@ -29035,7 +29035,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major local road - level+3",
+            "id": "Toll major local road - level+3",
             "type": "line",
             "source-layer": "Toll major local road",
             "minzoom": 11,
@@ -29102,7 +29102,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road - level+3",
+            "id": "Major local road - level+3",
             "type": "line",
             "source-layer": "Major local road",
             "minzoom": 11,
@@ -29169,7 +29169,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll connecting road - level+3",
+            "id": "Toll connecting road - level+3",
             "type": "line",
             "source-layer": "Toll connecting road",
             "minzoom": 10,
@@ -29241,7 +29241,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road - level+3",
+            "id": "Connecting road - level+3",
             "type": "line",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -29313,7 +29313,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll secondary road - level+3",
+            "id": "Toll secondary road - level+3",
             "type": "line",
             "source-layer": "Toll secondary road",
             "minzoom": 9,
@@ -29401,7 +29401,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road - level+3",
+            "id": "Secondary road - level+3",
             "type": "line",
             "source-layer": "Secondary road",
             "minzoom": 9,
@@ -29489,7 +29489,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll major road - level+3",
+            "id": "Toll major road - level+3",
             "type": "line",
             "source-layer": "Toll major road",
             "minzoom": 7,
@@ -29576,7 +29576,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road - level+3",
+            "id": "Major road - level+3",
             "type": "line",
             "source-layer": "Major road",
             "minzoom": 7,
@@ -29663,7 +29663,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road - level+3",
+            "id": "International road - level+3",
             "type": "line",
             "source-layer": "International road",
             "minzoom": 5,
@@ -29755,7 +29755,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll international road - level+3",
+            "id": "Toll international road - level+3",
             "type": "line",
             "source-layer": "Toll international road",
             "minzoom": 5,
@@ -29847,7 +29847,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway outline - level+3 (zoom < 13)",
+            "id": "Toll motorway outline - level+3 (zoom < 13)",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 10,
@@ -29995,7 +29995,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Toll motorway - level+3",
+            "id": "Toll motorway - level+3",
             "type": "line",
             "source-layer": "Toll motorway",
             "minzoom": 5,
@@ -30087,7 +30087,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway outline - level+3 (zoom < 13)",
+            "id": "Motorway outline - level+3 (zoom < 13)",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -30179,7 +30179,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway - level+3",
+            "id": "Motorway - level+3",
             "type": "line",
             "source-layer": "Motorway",
             "minzoom": 5,
@@ -30271,7 +30271,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting road arrow - level+3",
+            "id": "Connecting road arrow - level+3",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -30339,7 +30339,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Connecting arrow reverse - level+3",
+            "id": "Connecting arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 15,
@@ -30417,7 +30417,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International road arrow - level+3",
+            "id": "International road arrow - level+3",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -30485,7 +30485,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.International arrow reverse - level+3",
+            "id": "International arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "International road",
             "minzoom": 15,
@@ -30563,7 +30563,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major road arrow - level+3",
+            "id": "Major road arrow - level+3",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -30631,7 +30631,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major arrow reverse - level+3",
+            "id": "Major arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Major road",
             "minzoom": 15,
@@ -30709,7 +30709,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local road arrow - level+3",
+            "id": "Major local road arrow - level+3",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -30777,7 +30777,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Major local arrow reverse - level+3",
+            "id": "Major local arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Major local road",
             "minzoom": 15,
@@ -30855,7 +30855,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local road arrow - level+3",
+            "id": "Local road arrow - level+3",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -30923,7 +30923,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Local arrow reverse - level+3",
+            "id": "Local arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Local road",
             "minzoom": 15,
@@ -31001,7 +31001,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary road arrow - level+3",
+            "id": "Secondary road arrow - level+3",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -31069,7 +31069,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Secondary arrow reverse - level+3",
+            "id": "Secondary arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Secondary road",
             "minzoom": 15,
@@ -31147,7 +31147,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local road arrow - level+3",
+            "id": "Minor local road arrow - level+3",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -31215,7 +31215,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Minor local arrow reverse - level+3",
+            "id": "Minor local arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 15,
@@ -31293,7 +31293,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow - level+3",
+            "id": "Motorway arrow - level+3",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -31322,7 +31322,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Motorway arrow reverse - level+3",
+            "id": "Motorway arrow reverse - level+3",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 15,
@@ -31351,7 +31351,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Ferry road",
+            "id": "Ferry road",
             "type": "line",
             "source-layer": "Ferry road",
             "metadata": {
@@ -31443,7 +31443,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Country border outline",
+            "id": "Country border outline",
             "type": "line",
             "source-layer": "Country border",
             "minzoom": 2,
@@ -31507,7 +31507,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Country border",
+            "id": "Country border",
             "type": "line",
             "source-layer": "Country border",
             "metadata": {
@@ -31578,7 +31578,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Treaty country border",
+            "id": "Treaty country border",
             "type": "line",
             "source-layer": "Treaty country border",
             "minzoom": 1,
@@ -31631,7 +31631,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.Disputed country border",
+            "id": "Disputed country border",
             "type": "line",
             "source-layer": "Disputed country border",
             "minzoom": 1,
@@ -31684,7 +31684,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.State border outline",
+            "id": "State border outline",
             "type": "line",
             "source-layer": "State border",
             "minzoom": 3,
@@ -31733,7 +31733,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.State border-copy",
+            "id": "State border-copy",
             "type": "line",
             "source-layer": "State border",
             "minzoom": 3,
@@ -31781,7 +31781,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.transit.State border",
+            "id": "State border",
             "type": "line",
             "source-layer": "State border",
             "minzoom": 3,

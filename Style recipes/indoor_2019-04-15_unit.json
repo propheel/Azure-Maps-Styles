@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_store",
+      "id": "indoor_unit_store",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_room",
+      "id": "indoor_unit_room",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_storage",
+      "id": "indoor_unit_storage",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_restroom",
+      "id": "indoor_unit_restroom",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -209,7 +209,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_conference",
+      "id": "indoor_unit_conference",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -255,7 +255,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_hallway",
+      "id": "indoor_unit_hallway",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -281,7 +281,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_office",
+      "id": "indoor_unit_office",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -318,7 +318,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_kitchen",
+      "id": "indoor_unit_kitchen",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,
@@ -352,7 +352,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.unit.indoor_unit_lobby",
+      "id": "indoor_unit_lobby",
       "type": "fill",
       "source-layer": "Indoor unit",
       "minzoom": 18.5,

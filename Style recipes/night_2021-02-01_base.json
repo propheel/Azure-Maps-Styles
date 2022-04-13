@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.base.background",
+            "id": "background",
             "type": "background",
             "minzoom": 0,
             "maxzoom": 24,
@@ -13,7 +13,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 8",
+            "id": "Built-up area 8",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 6,
@@ -68,7 +68,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Forest",
+            "id": "Forest",
             "type": "fill",
             "source-layer": "Forest",
             "minzoom": 0,
@@ -86,7 +86,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Park",
+            "id": "Park",
             "type": "fill",
             "source-layer": "Park",
             "metadata": {
@@ -101,7 +101,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.National or state park",
+            "id": "National or state park",
             "type": "fill",
             "source-layer": "National or state park",
             "metadata": {
@@ -112,7 +112,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.National park",
+            "id": "National park",
             "type": "fill",
             "source-layer": "National park",
             "minzoom": 4,
@@ -130,7 +130,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.State or province park",
+            "id": "State or province park",
             "type": "fill",
             "source-layer": "State or province park",
             "maxzoom": 16,
@@ -146,7 +146,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.County park",
+            "id": "County park",
             "type": "fill",
             "source-layer": "County park",
             "metadata": {
@@ -161,7 +161,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Beach or dune",
+            "id": "Beach or dune",
             "type": "fill",
             "source-layer": "Beach or dune",
             "metadata": {
@@ -175,7 +175,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Regional park",
+            "id": "Regional park",
             "type": "fill",
             "source-layer": "Regional park",
             "metadata": {
@@ -190,7 +190,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Woodland",
+            "id": "Woodland",
             "type": "fill",
             "source-layer": "Woodland",
             "minzoom": 0,
@@ -206,7 +206,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Sand",
+            "id": "Sand",
             "type": "fill",
             "source-layer": "Sand",
             "metadata": {
@@ -221,7 +221,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Moor or heathland",
+            "id": "Moor or heathland",
             "type": "fill",
             "source-layer": "Moor or heathland",
             "minzoom": 10,
@@ -236,7 +236,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 16",
+            "id": "Built-up area 16",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 16,
@@ -252,7 +252,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 12",
+            "id": "Built-up area 12",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 12,
@@ -268,7 +268,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 11",
+            "id": "Built-up area 11",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 11,
@@ -284,7 +284,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 9",
+            "id": "Built-up area 9",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 9,
@@ -300,7 +300,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Built-up area 6",
+            "id": "Built-up area 6",
             "type": "fill",
             "source-layer": "Built-up area",
             "minzoom": 6,
@@ -316,7 +316,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Military",
+            "id": "Military",
             "type": "fill",
             "source-layer": "Military",
             "metadata": {
@@ -331,7 +331,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town railway ground",
+            "id": "Town railway ground",
             "type": "fill",
             "source-layer": "Town railway ground",
             "metadata": {
@@ -346,7 +346,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.City park",
+            "id": "City park",
             "type": "fill",
             "source-layer": "City park",
             "minzoom": 10,
@@ -362,7 +362,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Industrial area",
+            "id": "Industrial area",
             "type": "fill",
             "source-layer": "Industrial area",
             "maxzoom": 16,
@@ -378,7 +378,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Industrial harbor area",
+            "id": "Industrial harbor area",
             "type": "fill",
             "source-layer": "Industrial harbor area",
             "metadata": {
@@ -393,7 +393,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town greens",
+            "id": "Town greens",
             "type": "fill",
             "source-layer": "Town greens",
             "metadata": {
@@ -408,7 +408,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Golf",
+            "id": "Golf",
             "type": "fill",
             "source-layer": "Golf",
             "metadata": {
@@ -423,7 +423,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Cemetery",
+            "id": "Cemetery",
             "type": "fill",
             "source-layer": "Cemetery",
             "metadata": {
@@ -438,7 +438,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Shopping",
+            "id": "Shopping",
             "type": "fill",
             "source-layer": "Shopping",
             "metadata": {
@@ -453,7 +453,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Airport",
+            "id": "Airport",
             "type": "fill",
             "source-layer": "Airport",
             "metadata": {
@@ -465,7 +465,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Runway",
+            "id": "Runway",
             "type": "fill",
             "source-layer": "Runway",
             "metadata": {
@@ -477,7 +477,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town paved area",
+            "id": "Town paved area",
             "type": "fill",
             "source-layer": "Town paved area",
             "metadata": {
@@ -492,7 +492,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town garden path",
+            "id": "Town garden path",
             "type": "fill",
             "source-layer": "Town garden path",
             "metadata": {
@@ -507,7 +507,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town school ground 0",
+            "id": "Town school ground 0",
             "type": "fill",
             "source-layer": "Town school ground",
             "minzoom": 15,
@@ -523,7 +523,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.University",
+            "id": "University",
             "type": "fill",
             "source-layer": "University",
             "minzoom": 0,
@@ -539,7 +539,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.School",
+            "id": "School",
             "type": "fill",
             "source-layer": "School",
             "minzoom": 5,
@@ -556,7 +556,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Hospital",
+            "id": "Hospital",
             "type": "fill",
             "source-layer": "Hospital",
             "metadata": {
@@ -571,7 +571,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Institution",
+            "id": "Institution",
             "type": "fill",
             "source-layer": "Institution",
             "metadata": {
@@ -585,7 +585,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Government Administration Office",
+            "id": "Government Administration Office",
             "type": "fill",
             "source-layer": "Government Administration Office",
             "metadata": {
@@ -600,7 +600,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Stadium",
+            "id": "Stadium",
             "type": "fill",
             "source-layer": "Stadium",
             "minzoom": 10,
@@ -616,7 +616,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Other building footprint",
+            "id": "Other building footprint",
             "type": "fill",
             "source-layer": "Other building",
             "minzoom": 16,
@@ -631,7 +631,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Reservation",
+            "id": "Reservation",
             "type": "fill",
             "source-layer": "Reservation",
             "minzoom": 6,
@@ -649,7 +649,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Pedestrian Deck",
+            "id": "Pedestrian Deck",
             "type": "fill",
             "source-layer": "Pedestrian Deck",
             "metadata": {
@@ -660,7 +660,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Other town block",
+            "id": "Other town block",
             "type": "fill",
             "source-layer": "Other town block",
             "metadata": {
@@ -671,7 +671,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Pool",
+            "id": "Pool",
             "type": "fill",
             "source-layer": "Pool",
             "metadata": {
@@ -682,7 +682,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Zoo",
+            "id": "Zoo",
             "type": "fill",
             "source-layer": "Zoo",
             "metadata": {
@@ -697,7 +697,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Sports hall",
+            "id": "Sports hall",
             "type": "fill",
             "source-layer": "Sports hall",
             "metadata": {
@@ -708,7 +708,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Amusement park",
+            "id": "Amusement park",
             "type": "fill",
             "source-layer": "Amusement park",
             "metadata": {
@@ -720,7 +720,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town grass",
+            "id": "Town grass",
             "type": "fill",
             "source-layer": "Town grass",
             "minzoom": 14,
@@ -736,7 +736,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town swimming pool",
+            "id": "Town swimming pool",
             "type": "fill",
             "source-layer": "Town swimming pool",
             "metadata": {
@@ -747,7 +747,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town walkway",
+            "id": "Town walkway",
             "type": "fill",
             "source-layer": "Town walkway",
             "metadata": {
@@ -761,7 +761,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town factory ground 0",
+            "id": "Town factory ground 0",
             "type": "fill",
             "source-layer": "Town factory ground",
             "minzoom": 13,
@@ -778,7 +778,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town water body",
+            "id": "Town water body",
             "type": "fill",
             "source-layer": "Town water body",
             "metadata": {
@@ -789,7 +789,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Factory building footprint",
+            "id": "Factory building footprint",
             "type": "fill",
             "source-layer": "Factory building",
             "metadata": {
@@ -804,7 +804,7 @@
             "minzoom": 16
         },
         {
-            "id": "microsoft.maps.base.base.Place of worship footprint",
+            "id": "Place of worship footprint",
             "type": "fill",
             "source-layer": "Place of worship",
             "layout": {},
@@ -817,7 +817,7 @@
             "minzoom": 16
         },
         {
-            "id": "microsoft.maps.base.base.Hospital building footprint",
+            "id": "Hospital building footprint",
             "type": "fill",
             "source-layer": "Hospital building",
             "metadata": {
@@ -832,7 +832,7 @@
             "minzoom": 16
         },
         {
-            "id": "microsoft.maps.base.base.School building outline",
+            "id": "School building outline",
             "type": "fill",
             "source-layer": "School building",
             "minzoom": 16,
@@ -849,7 +849,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.School building footprint",
+            "id": "School building footprint",
             "type": "fill",
             "source-layer": "School building",
             "minzoom": 16,
@@ -865,7 +865,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Hotel building footprint",
+            "id": "Hotel building footprint",
             "type": "fill",
             "source-layer": "Hotel building",
             "metadata": {
@@ -877,7 +877,7 @@
             "minzoom": 16
         },
         {
-            "id": "microsoft.maps.base.base.Cultural Facility footprint",
+            "id": "Cultural Facility footprint",
             "type": "fill",
             "source-layer": "Cultural Facility",
             "layout": {},
@@ -890,7 +890,7 @@
             "minzoom": 16
         },
         {
-            "id": "microsoft.maps.base.base.Railway Station",
+            "id": "Railway Station",
             "type": "fill",
             "source-layer": "Railway Station",
             "metadata": {
@@ -905,7 +905,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Parking area",
+            "id": "Parking area",
             "type": "fill",
             "source-layer": "Parking area",
             "minzoom": 15,
@@ -921,7 +921,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Subway Station",
+            "id": "Subway Station",
             "type": "fill",
             "source-layer": "Subway Station",
             "metadata": {
@@ -933,7 +933,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town hospital ground",
+            "id": "Town hospital ground",
             "type": "fill",
             "source-layer": "Town hospital ground",
             "maxzoom": 16,
@@ -948,7 +948,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Town shore",
+            "id": "Town shore",
             "type": "fill",
             "source-layer": "Town shore",
             "metadata": {
@@ -962,7 +962,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Meridian",
+            "id": "Meridian",
             "type": "fill",
             "source-layer": "Meridian",
             "metadata": {
@@ -973,7 +973,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Sidewalk",
+            "id": "Sidewalk",
             "type": "fill",
             "source-layer": "Sidewalk",
             "metadata": {
@@ -984,7 +984,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Breakwater",
+            "id": "Breakwater",
             "type": "fill",
             "source-layer": "Breakwater",
             "metadata": {
@@ -995,7 +995,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Other water o",
+            "id": "Other water o",
             "type": "line",
             "source-layer": "Other water",
             "minzoom": 7,
@@ -1036,7 +1036,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Other water",
+            "id": "Other water",
             "type": "fill",
             "source-layer": "Other water",
             "minzoom": 1,
@@ -1058,7 +1058,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Intermittent water",
+            "id": "Intermittent water",
             "type": "fill",
             "source-layer": "Intermittent water",
             "metadata": {
@@ -1069,7 +1069,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Lake shadow",
+            "id": "Lake shadow",
             "type": "fill",
             "source-layer": "Lake",
             "metadata": {
@@ -1088,7 +1088,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Lake",
+            "id": "Lake",
             "type": "fill",
             "source-layer": "Lake",
             "layout": {},
@@ -1105,7 +1105,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Ocean or sea",
+            "id": "Ocean or sea",
             "type": "fill",
             "source-layer": "Ocean or sea",
             "metadata": {
@@ -1119,7 +1119,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Ocean",
+            "id": "Ocean",
             "type": "fill",
             "source-layer": "Ocean",
             "metadata": {
@@ -1133,7 +1133,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.Sea",
+            "id": "Sea",
             "type": "fill",
             "source-layer": "Sea",
             "metadata": {
@@ -1147,7 +1147,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.River",
+            "id": "River",
             "type": "fill",
             "source-layer": "River",
             "metadata": {

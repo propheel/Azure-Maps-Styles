@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.labels_places.Park/Garden label",
+            "id": "Park/Garden label",
             "type": "symbol",
             "source-layer": "Park/Garden label",
             "minzoom": 12,
@@ -35,7 +35,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.National park name",
+            "id": "National park name",
             "type": "symbol",
             "source-layer": "National park label",
             "minzoom": 5,
@@ -71,7 +71,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Railway station",
+            "id": "Railway station",
             "type": "symbol",
             "source-layer": "Railway station",
             "filter": ["!=", "name", " "],
@@ -101,7 +101,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.POI",
+            "id": "POI",
             "type": "symbol",
             "source-layer": "POI",
             "minzoom": 14,
@@ -132,7 +132,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Airport label",
+            "id": "Airport label",
             "type": "symbol",
             "source-layer": "Airport label",
             "minzoom": 2,
@@ -167,7 +167,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Stadium label",
+            "id": "Stadium label",
             "type": "symbol",
             "source-layer": "Stadium label",
             "minzoom": 12,
@@ -202,7 +202,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Hospital label",
+            "id": "Hospital label",
             "type": "symbol",
             "source-layer": "Hospital label",
             "minzoom": 12,
@@ -237,7 +237,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.University/School label",
+            "id": "University/School label",
             "type": "symbol",
             "source-layer": "University/School label",
             "minzoom": 12,
@@ -272,7 +272,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Zoo label",
+            "id": "Zoo label",
             "type": "symbol",
             "source-layer": "Zoo label",
             "minzoom": 12,
@@ -307,7 +307,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Other label",
+            "id": "Other label",
             "type": "symbol",
             "source-layer": "Other label",
             "filter": ["!=", "name", " "],
@@ -330,7 +330,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Military Territory label",
+            "id": "Military Territory label",
             "type": "symbol",
             "source-layer": "Military Territory label",
             "minzoom": 12,
@@ -365,7 +365,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Amusement area label",
+            "id": "Amusement area label",
             "type": "symbol",
             "source-layer": "Amusement area label",
             "minzoom": 12,
@@ -400,7 +400,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Cemetery label",
+            "id": "Cemetery label",
             "type": "symbol",
             "source-layer": "Cemetery label",
             "minzoom": 12,
@@ -435,7 +435,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Reservation label-sm",
+            "id": "Reservation label-sm",
             "type": "symbol",
             "source-layer": "Reservation label",
             "minzoom": 10,
@@ -502,7 +502,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Reservation label",
+            "id": "Reservation label",
             "type": "symbol",
             "source-layer": "Reservation label",
             "minzoom": 6,
@@ -569,7 +569,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Landmark label",
+            "id": "Landmark label",
             "type": "symbol",
             "source-layer": "Landmark label",
             "minzoom": 12,
@@ -604,7 +604,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Golf Course label",
+            "id": "Golf Course label",
             "type": "symbol",
             "source-layer": "Golf Course label",
             "minzoom": 12,
@@ -640,7 +640,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Prison label",
+            "id": "Prison label",
             "type": "symbol",
             "source-layer": "Prison label",
             "minzoom": 12,
@@ -675,7 +675,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Shopping centre label",
+            "id": "Shopping centre label",
             "type": "symbol",
             "source-layer": "Shopping centre label",
             "minzoom": 12,
@@ -710,7 +710,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Museum label",
+            "id": "Museum label",
             "type": "symbol",
             "source-layer": "Museum label",
             "minzoom": 12,
@@ -745,7 +745,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Woodland label",
+            "id": "Woodland label",
             "type": "symbol",
             "source-layer": "Woodland label",
             "filter": ["!=", "name", " "],
@@ -770,7 +770,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Industrial area label",
+            "id": "Industrial area label",
             "type": "symbol",
             "source-layer": "Industrial area label",
             "minzoom": 12,
@@ -805,7 +805,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Neighborhood-1",
+            "id": "Neighborhood-1",
             "type": "symbol",
             "source-layer": "Town",
             "minzoom": 11,
@@ -855,7 +855,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Neighborhood-2",
+            "id": "Neighborhood-2",
             "type": "symbol",
             "source-layer": "Village",
             "minzoom": 11,
@@ -905,7 +905,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Village",
+            "id": "Village",
             "type": "symbol",
             "source-layer": "Village",
             "minzoom": 0,
@@ -956,7 +956,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Town",
+            "id": "Town",
             "type": "symbol",
             "source-layer": "Town",
             "maxzoom": 15,
@@ -1002,7 +1002,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Small city",
+            "id": "Small city",
             "type": "symbol",
             "source-layer": "Small city",
             "maxzoom": 15,
@@ -1042,7 +1042,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Medium city",
+            "id": "Medium city",
             "type": "symbol",
             "source-layer": "Medium city",
             "maxzoom": 15,
@@ -1091,7 +1091,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Large city",
+            "id": "Large city",
             "type": "symbol",
             "source-layer": "Large city",
             "maxzoom": 15,
@@ -1144,7 +1144,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Capital city",
+            "id": "Capital city",
             "type": "symbol",
             "source-layer": "Capital city",
             "maxzoom": 15,
@@ -1193,7 +1193,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.State name short",
+            "id": "State name short",
             "type": "symbol",
             "source-layer": "State name short",
             "filter": ["!=", "name", " "],
@@ -1217,7 +1217,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.State name",
+            "id": "State name",
             "type": "symbol",
             "source-layer": "State name",
             "filter": ["any", ["!=", "name", ""], ["==", "name", "Kansas"]],
@@ -1246,7 +1246,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.State name- kansas",
+            "id": "State name- kansas",
             "type": "symbol",
             "source-layer": "State name",
             "filter": ["any", ["!=", "name", ""], ["==", "name", "Kansas"]],
@@ -1275,7 +1275,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Intermittent water label",
+            "id": "Intermittent water label",
             "type": "symbol",
             "source-layer": "Intermittent water label",
             "minzoom": 1,
@@ -1305,7 +1305,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Island label",
+            "id": "Island label",
             "type": "symbol",
             "source-layer": "Island label",
             "minzoom": 4,
@@ -1329,7 +1329,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Sea label",
+            "id": "Sea label",
             "type": "symbol",
             "source-layer": "Sea label",
             "minzoom": 0,
@@ -1354,7 +1354,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Ocean label",
+            "id": "Ocean label",
             "type": "symbol",
             "source-layer": "Ocean label",
             "filter": ["!=", "name", " "],
@@ -1378,7 +1378,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Other water body label-filter",
+            "id": "Other water body label-filter",
             "type": "symbol",
             "source-layer": "Other water body label",
             "filter": ["any", ["==", "name", "Lake Washington"]],
@@ -1402,7 +1402,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Other water body label",
+            "id": "Other water body label",
             "type": "symbol",
             "source-layer": "Other water body label",
             "filter": ["none", ["==", "name", "Lake Washington"]],
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Lake label",
+            "id": "Lake label",
             "type": "symbol",
             "source-layer": "Lake label",
             "filter": ["!=", "name", " "],
@@ -1449,7 +1449,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Country name-filter",
+            "id": "Country name-filter",
             "type": "symbol",
             "source-layer": "Country name",
             "minzoom": 1,
@@ -1484,7 +1484,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels_places.Country name",
+            "id": "Country name",
             "type": "symbol",
             "source-layer": "Country name",
             "minzoom": 1,

@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.structure.indoor_structure",
+      "id": "indoor_structure",
       "type": "fill",
       "source-layer": "Indoor structure",
       "minzoom": 18.5,

@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.labels.Service road icon1",
+            "id": "Service road icon1",
             "type": "symbol",
             "source-layer": "Service road",
             "filter": [
@@ -61,7 +61,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Service road icon2",
+            "id": "Service road icon2",
             "type": "symbol",
             "source-layer": "Service road",
             "filter": [
@@ -121,7 +121,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Pedestrian road icon2",
+            "id": "Pedestrian road icon2",
             "type": "symbol",
             "source-layer": "Pedestrian road",
             "filter": [
@@ -188,7 +188,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Pedestrian road icon1",
+            "id": "Pedestrian road icon1",
             "type": "symbol",
             "source-layer": "Pedestrian road",
             "filter": [
@@ -255,7 +255,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Pedestrian road icon0",
+            "id": "Pedestrian road icon0",
             "type": "symbol",
             "source-layer": "Pedestrian road",
             "filter": [
@@ -322,7 +322,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road icon2",
+            "id": "Minor local road icon2",
             "type": "symbol",
             "source-layer": "Minor local road",
             "filter": [
@@ -389,7 +389,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road icon1",
+            "id": "Minor local road icon1",
             "type": "symbol",
             "source-layer": "Minor local road",
             "filter": [
@@ -456,7 +456,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road icon0",
+            "id": "Minor local road icon0",
             "type": "symbol",
             "source-layer": "Minor local road",
             "filter": [
@@ -523,7 +523,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road icon2",
+            "id": "Local road icon2",
             "type": "symbol",
             "source-layer": "Local road",
             "filter": [
@@ -575,7 +575,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road icon1",
+            "id": "Local road icon1",
             "type": "symbol",
             "source-layer": "Local road",
             "filter": [
@@ -627,7 +627,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road icon0",
+            "id": "Local road icon0",
             "type": "symbol",
             "source-layer": "Local road",
             "filter": [
@@ -679,7 +679,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road icon2",
+            "id": "Major local road icon2",
             "type": "symbol",
             "source-layer": "Major local road",
             "filter": [
@@ -731,7 +731,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road icon1",
+            "id": "Major local road icon1",
             "type": "symbol",
             "source-layer": "Major local road",
             "filter": [
@@ -783,7 +783,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road icon0",
+            "id": "Major local road icon0",
             "type": "symbol",
             "source-layer": "Major local road",
             "filter": [
@@ -835,7 +835,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road icon2",
+            "id": "Connecting road icon2",
             "type": "symbol",
             "source-layer": "Connecting road",
             "filter": [
@@ -894,7 +894,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road icon1",
+            "id": "Connecting road icon1",
             "type": "symbol",
             "source-layer": "Connecting road",
             "filter": [
@@ -953,7 +953,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road icon0",
+            "id": "Connecting road icon0",
             "type": "symbol",
             "source-layer": "Connecting road",
             "filter": [
@@ -1012,7 +1012,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road icon2",
+            "id": "Secondary road icon2",
             "type": "symbol",
             "source-layer": "Secondary road",
             "filter": [
@@ -1071,7 +1071,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road icon1",
+            "id": "Secondary road icon1",
             "type": "symbol",
             "source-layer": "Secondary road",
             "filter": [
@@ -1130,7 +1130,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road icon0",
+            "id": "Secondary road icon0",
             "type": "symbol",
             "source-layer": "Secondary road",
             "filter": [
@@ -1189,7 +1189,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road icon2",
+            "id": "Major road icon2",
             "type": "symbol",
             "source-layer": "Major road",
             "filter": [
@@ -1278,7 +1278,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road icon1",
+            "id": "Major road icon1",
             "type": "symbol",
             "source-layer": "Major road",
             "filter": [
@@ -1367,7 +1367,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road icon0",
+            "id": "Major road icon0",
             "type": "symbol",
             "source-layer": "Major road",
             "filter": [
@@ -1456,7 +1456,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road icon2",
+            "id": "International road icon2",
             "type": "symbol",
             "source-layer": "International road",
             "filter": [
@@ -1508,7 +1508,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road icon1",
+            "id": "International road icon1",
             "type": "symbol",
             "source-layer": "International road",
             "filter": [
@@ -1560,7 +1560,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road icon0",
+            "id": "International road icon0",
             "type": "symbol",
             "source-layer": "International road",
             "filter": [
@@ -1612,7 +1612,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway icon3",
+            "id": "Motorway icon3",
             "type": "symbol",
             "source-layer": "Motorway",
             "filter": [
@@ -1664,7 +1664,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway icon2",
+            "id": "Motorway icon2",
             "type": "symbol",
             "source-layer": "Motorway",
             "filter": [
@@ -1716,7 +1716,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway icon1",
+            "id": "Motorway icon1",
             "type": "symbol",
             "source-layer": "Motorway",
             "filter": [
@@ -1768,7 +1768,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway icon0",
+            "id": "Motorway icon0",
             "type": "symbol",
             "source-layer": "Motorway",
             "filter": [
@@ -1820,7 +1820,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road tunnel icon2",
+            "id": "Minor local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "filter": [
@@ -1886,7 +1886,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road tunnel icon1",
+            "id": "Minor local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "filter": [
@@ -1952,7 +1952,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road tunnel icon0",
+            "id": "Minor local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "filter": [
@@ -2018,7 +2018,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road tunnel icon2",
+            "id": "Local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "filter": [
@@ -2084,7 +2084,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road tunnel icon1",
+            "id": "Local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "filter": [
@@ -2150,7 +2150,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road tunnel icon0",
+            "id": "Local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "filter": [
@@ -2216,7 +2216,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road tunnel icon2",
+            "id": "Major local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "filter": [
@@ -2282,7 +2282,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road tunnel icon1",
+            "id": "Major local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "filter": [
@@ -2348,7 +2348,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road tunnel icon0",
+            "id": "Major local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "filter": [
@@ -2414,7 +2414,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road tunnel icon2",
+            "id": "Connecting road tunnel icon2",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "filter": [
@@ -2487,7 +2487,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road tunnel icon1",
+            "id": "Connecting road tunnel icon1",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "filter": [
@@ -2560,7 +2560,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road tunnel icon0",
+            "id": "Connecting road tunnel icon0",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "filter": [
@@ -2633,7 +2633,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road tunnel icon2",
+            "id": "Secondary road tunnel icon2",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "filter": [
@@ -2706,7 +2706,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road tunnel icon1",
+            "id": "Secondary road tunnel icon1",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "filter": [
@@ -2779,7 +2779,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road tunnel icon0",
+            "id": "Secondary road tunnel icon0",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "filter": [
@@ -2852,7 +2852,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road tunnel icon2",
+            "id": "Major road tunnel icon2",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "filter": [
@@ -2925,7 +2925,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road tunnel icon1",
+            "id": "Major road tunnel icon1",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "filter": [
@@ -2998,7 +2998,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road tunnel icon0",
+            "id": "Major road tunnel icon0",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "filter": [
@@ -3071,7 +3071,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road tunnel icon2",
+            "id": "International road tunnel icon2",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "filter": [
@@ -3123,7 +3123,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road tunnel icon1",
+            "id": "International road tunnel icon1",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "filter": [
@@ -3175,7 +3175,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road tunnel icon0",
+            "id": "International road tunnel icon0",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "filter": [
@@ -3227,7 +3227,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway tunnel icon2",
+            "id": "Motorway tunnel icon2",
             "type": "symbol",
             "source-layer": "Motorway tunnel",
             "filter": [
@@ -3279,7 +3279,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway tunnel icon1",
+            "id": "Motorway tunnel icon1",
             "type": "symbol",
             "source-layer": "Motorway tunnel",
             "filter": [
@@ -3331,7 +3331,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway tunnel icon0",
+            "id": "Motorway tunnel icon0",
             "type": "symbol",
             "source-layer": "Motorway tunnel",
             "filter": [
@@ -3383,7 +3383,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road icon2",
+            "id": "Toll minor local road icon2",
             "type": "symbol",
             "source-layer": "Toll minor local road",
             "filter": [
@@ -3449,7 +3449,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road icon1",
+            "id": "Toll minor local road icon1",
             "type": "symbol",
             "source-layer": "Toll minor local road",
             "filter": [
@@ -3515,7 +3515,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road icon0",
+            "id": "Toll minor local road icon0",
             "type": "symbol",
             "source-layer": "Toll minor local road",
             "filter": [
@@ -3581,7 +3581,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road icon2",
+            "id": "Toll local road icon2",
             "type": "symbol",
             "source-layer": "Toll local road",
             "filter": [
@@ -3647,7 +3647,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road icon1",
+            "id": "Toll local road icon1",
             "type": "symbol",
             "source-layer": "Toll local road",
             "filter": [
@@ -3713,7 +3713,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road icon0",
+            "id": "Toll local road icon0",
             "type": "symbol",
             "source-layer": "Toll local road",
             "filter": [
@@ -3779,7 +3779,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road icon2",
+            "id": "Toll major local road icon2",
             "type": "symbol",
             "source-layer": "Toll major local road",
             "filter": [
@@ -3845,7 +3845,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road icon1",
+            "id": "Toll major local road icon1",
             "type": "symbol",
             "source-layer": "Toll major local road",
             "filter": [
@@ -3911,7 +3911,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road icon0",
+            "id": "Toll major local road icon0",
             "type": "symbol",
             "source-layer": "Toll major local road",
             "filter": [
@@ -3977,7 +3977,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road icon2",
+            "id": "Toll connecting road icon2",
             "type": "symbol",
             "source-layer": "Toll connecting road",
             "filter": [
@@ -4050,7 +4050,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road icon1",
+            "id": "Toll connecting road icon1",
             "type": "symbol",
             "source-layer": "Toll connecting road",
             "filter": [
@@ -4123,7 +4123,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road icon0",
+            "id": "Toll connecting road icon0",
             "type": "symbol",
             "source-layer": "Toll connecting road",
             "filter": [
@@ -4196,7 +4196,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road icon2",
+            "id": "Toll secondary road icon2",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "filter": [
@@ -4269,7 +4269,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road icon1",
+            "id": "Toll secondary road icon1",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "filter": [
@@ -4342,7 +4342,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road icon0",
+            "id": "Toll secondary road icon0",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "filter": [
@@ -4415,7 +4415,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road icon2",
+            "id": "Toll major road icon2",
             "type": "symbol",
             "source-layer": "Toll major road",
             "filter": [
@@ -4488,7 +4488,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road icon1",
+            "id": "Toll major road icon1",
             "type": "symbol",
             "source-layer": "Toll major road",
             "filter": [
@@ -4561,7 +4561,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road icon0",
+            "id": "Toll major road icon0",
             "type": "symbol",
             "source-layer": "Toll major road",
             "filter": [
@@ -4634,7 +4634,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road icon2",
+            "id": "Toll international road icon2",
             "type": "symbol",
             "source-layer": "Toll international road",
             "filter": [
@@ -4700,7 +4700,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road icon1",
+            "id": "Toll international road icon1",
             "type": "symbol",
             "source-layer": "Toll international road",
             "filter": [
@@ -4766,7 +4766,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road icon0",
+            "id": "Toll international road icon0",
             "type": "symbol",
             "source-layer": "Toll international road",
             "filter": [
@@ -4832,7 +4832,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway icon2",
+            "id": "Toll motorway icon2",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "filter": [
@@ -4899,7 +4899,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway icon1",
+            "id": "Toll motorway icon1",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "filter": [
@@ -4966,7 +4966,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway icon0",
+            "id": "Toll motorway icon0",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "filter": [
@@ -5033,7 +5033,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road tunnel icon2",
+            "id": "Toll minor local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll minor local road tunnel",
             "filter": [
@@ -5098,7 +5098,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road tunnel icon1",
+            "id": "Toll minor local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll minor local road tunnel",
             "filter": [
@@ -5163,7 +5163,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road tunnel icon0",
+            "id": "Toll minor local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll minor local road tunnel",
             "filter": [
@@ -5228,7 +5228,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road tunnel icon2",
+            "id": "Toll local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll local road tunnel",
             "filter": [
@@ -5293,7 +5293,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road tunnel icon1",
+            "id": "Toll local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll local road tunnel",
             "filter": [
@@ -5358,7 +5358,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road tunnel icon0",
+            "id": "Toll local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll local road tunnel",
             "filter": [
@@ -5423,7 +5423,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road tunnel icon2",
+            "id": "Toll major local road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll major local road tunnel",
             "filter": [
@@ -5488,7 +5488,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road tunnel icon1",
+            "id": "Toll major local road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll major local road tunnel",
             "filter": [
@@ -5553,7 +5553,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road tunnel icon0",
+            "id": "Toll major local road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll major local road tunnel",
             "filter": [
@@ -5618,7 +5618,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road tunnel icon2",
+            "id": "Toll connecting road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll connecting road tunnel",
             "filter": [
@@ -5690,7 +5690,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road tunnel icon1",
+            "id": "Toll connecting road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll connecting road tunnel",
             "filter": [
@@ -5762,7 +5762,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road tunnel icon0",
+            "id": "Toll connecting road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll connecting road tunnel",
             "filter": [
@@ -5834,7 +5834,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel icon2",
+            "id": "Toll secondary road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "filter": [
@@ -5906,7 +5906,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel icon1",
+            "id": "Toll secondary road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "filter": [
@@ -5978,7 +5978,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel icon0",
+            "id": "Toll secondary road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "filter": [
@@ -6050,7 +6050,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel icon2",
+            "id": "Toll major road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "filter": [
@@ -6122,7 +6122,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel icon1",
+            "id": "Toll major road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "filter": [
@@ -6194,7 +6194,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel icon0",
+            "id": "Toll major road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "filter": [
@@ -6266,7 +6266,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel icon2",
+            "id": "Toll international road tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "filter": [
@@ -6332,7 +6332,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel icon1",
+            "id": "Toll international road tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "filter": [
@@ -6398,7 +6398,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel icon0",
+            "id": "Toll international road tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "filter": [
@@ -6464,7 +6464,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel icon2",
+            "id": "Toll motorway tunnel icon2",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "filter": [
@@ -6530,7 +6530,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel icon1",
+            "id": "Toll motorway tunnel icon1",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "filter": [
@@ -6596,7 +6596,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel icon0",
+            "id": "Toll motorway tunnel icon0",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "filter": [
@@ -6662,7 +6662,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Non public road label",
+            "id": "Non public road label",
             "type": "symbol",
             "source-layer": "Non public road",
             "metadata": {
@@ -6702,7 +6702,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Walkway road label",
+            "id": "Walkway road label",
             "type": "symbol",
             "source-layer": "Walkway road",
             "metadata": {
@@ -6742,7 +6742,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Parking road label",
+            "id": "Parking road label",
             "type": "symbol",
             "source-layer": "Parking road",
             "metadata": {
@@ -6782,7 +6782,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Service road label",
+            "id": "Service road label",
             "type": "symbol",
             "source-layer": "Service road",
             "metadata": {
@@ -6822,7 +6822,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Pedestrian road label",
+            "id": "Pedestrian road label",
             "type": "symbol",
             "source-layer": "Pedestrian road",
             "minzoom": 14,
@@ -6863,7 +6863,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road label",
+            "id": "Minor local road label",
             "type": "symbol",
             "source-layer": "Minor local road",
             "minzoom": 0,
@@ -6905,7 +6905,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Ferry road label",
+            "id": "Ferry road label",
             "type": "symbol",
             "source-layer": "Ferry road",
             "metadata": {
@@ -6949,7 +6949,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road label",
+            "id": "Local road label",
             "type": "symbol",
             "source-layer": "Local road",
             "metadata": {
@@ -6989,7 +6989,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road label",
+            "id": "Major local road label",
             "type": "symbol",
             "source-layer": "Major local road",
             "metadata": {
@@ -7033,7 +7033,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road label",
+            "id": "Connecting road label",
             "type": "symbol",
             "source-layer": "Connecting road",
             "minzoom": 10,
@@ -7081,7 +7081,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road label",
+            "id": "Secondary road label",
             "type": "symbol",
             "source-layer": "Secondary road",
             "metadata": {
@@ -7129,7 +7129,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road label",
+            "id": "Major road label",
             "type": "symbol",
             "source-layer": "Major road",
             "metadata": {
@@ -7181,7 +7181,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road label",
+            "id": "International road label",
             "type": "symbol",
             "source-layer": "International road",
             "metadata": {
@@ -7233,7 +7233,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway label",
+            "id": "Motorway label",
             "type": "symbol",
             "source-layer": "Motorway",
             "minzoom": 1,
@@ -7288,7 +7288,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Minor local road tunnel label",
+            "id": "Minor local road tunnel label",
             "type": "symbol",
             "source-layer": "Minor local road tunnel",
             "metadata": {
@@ -7328,7 +7328,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Local road tunnel label",
+            "id": "Local road tunnel label",
             "type": "symbol",
             "source-layer": "Local road tunnel",
             "metadata": {
@@ -7368,7 +7368,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major local road tunnel label",
+            "id": "Major local road tunnel label",
             "type": "symbol",
             "source-layer": "Major local road tunnel",
             "metadata": {
@@ -7412,7 +7412,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Connecting road tunnel label",
+            "id": "Connecting road tunnel label",
             "type": "symbol",
             "source-layer": "Connecting road tunnel",
             "metadata": {
@@ -7456,7 +7456,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Secondary road tunnel label",
+            "id": "Secondary road tunnel label",
             "type": "symbol",
             "source-layer": "Secondary road tunnel",
             "metadata": {
@@ -7504,7 +7504,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Major road tunnel label",
+            "id": "Major road tunnel label",
             "type": "symbol",
             "source-layer": "Major road tunnel",
             "metadata": {
@@ -7556,7 +7556,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.International road tunnel label",
+            "id": "International road tunnel label",
             "type": "symbol",
             "source-layer": "International road tunnel",
             "metadata": {
@@ -7608,7 +7608,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Motorway tunnel label",
+            "id": "Motorway tunnel label",
             "type": "symbol",
             "source-layer": "Motorway tunnel",
             "metadata": {
@@ -7660,7 +7660,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road label",
+            "id": "Toll minor local road label",
             "type": "symbol",
             "source-layer": "Toll minor local road",
             "metadata": {
@@ -7700,7 +7700,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road label",
+            "id": "Toll local road label",
             "type": "symbol",
             "source-layer": "Toll local road",
             "metadata": {
@@ -7740,7 +7740,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road label",
+            "id": "Toll major local road label",
             "type": "symbol",
             "source-layer": "Toll major local road",
             "metadata": {
@@ -7784,7 +7784,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road label",
+            "id": "Toll connecting road label",
             "type": "symbol",
             "source-layer": "Toll connecting road",
             "metadata": {
@@ -7843,7 +7843,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road label",
+            "id": "Toll secondary road label",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "metadata": {
@@ -7891,7 +7891,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road label",
+            "id": "Toll major road label",
             "type": "symbol",
             "source-layer": "Toll major road",
             "metadata": {
@@ -7943,7 +7943,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road label",
+            "id": "Toll international road label",
             "type": "symbol",
             "source-layer": "Toll international road",
             "metadata": {
@@ -8009,7 +8009,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel image (Zoom 15-17)",
+            "id": "Toll secondary road tunnel image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "metadata": {
@@ -8067,7 +8067,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel image (Zoom 17-24)",
+            "id": "Toll secondary road tunnel image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "metadata": {
@@ -8125,7 +8125,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road image (Zoom 15-17)",
+            "id": "Toll secondary road image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "filter": [
@@ -8198,7 +8198,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road image (Zoom 17-24)",
+            "id": "Toll secondary road image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll secondary road",
             "filter": [
@@ -8271,7 +8271,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road image (Zoom 15-17)",
+            "id": "Toll major road image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll major road",
             "filter": [
@@ -8333,7 +8333,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road image (Zoom 17-24)",
+            "id": "Toll major road image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll major road",
             "filter": [
@@ -8395,7 +8395,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel image (Zoom 15-17)",
+            "id": "Toll major road tunnel image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "metadata": {
@@ -8453,7 +8453,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel image (Zoom 17-24)",
+            "id": "Toll major road tunnel image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "metadata": {
@@ -8511,7 +8511,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel image (Zoom 15-17)",
+            "id": "Toll international road tunnel image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "metadata": {
@@ -8569,7 +8569,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel image (Zoom 17-24)",
+            "id": "Toll international road tunnel image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "metadata": {
@@ -8627,7 +8627,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel image (Zoom 15-17)",
+            "id": "Toll motorway tunnel image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "metadata": {
@@ -8685,7 +8685,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel image (Zoom 17-24)",
+            "id": "Toll motorway tunnel image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "metadata": {
@@ -8743,7 +8743,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway image (Zoom 15-17)",
+            "id": "Toll motorway image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "filter": [
@@ -8805,7 +8805,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway image (Zoom 17-24)",
+            "id": "Toll motorway image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "filter": [
@@ -8867,7 +8867,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road image (Zoom 15-17)",
+            "id": "Toll international road image (Zoom 15-17)",
             "type": "symbol",
             "source-layer": "Toll international road",
             "filter": [
@@ -8929,7 +8929,7 @@
             "maxzoom": 17
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road image (Zoom 17-24)",
+            "id": "Toll international road image (Zoom 17-24)",
             "type": "symbol",
             "source-layer": "Toll international road",
             "filter": [
@@ -8991,7 +8991,7 @@
             "maxzoom": 24
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway label",
+            "id": "Toll motorway label",
             "type": "symbol",
             "source-layer": "Toll motorway",
             "metadata": {
@@ -9043,7 +9043,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll minor local road tunnel label",
+            "id": "Toll minor local road tunnel label",
             "type": "symbol",
             "source-layer": "Toll minor local road tunnel",
             "metadata": {
@@ -9083,7 +9083,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll local road tunnel label",
+            "id": "Toll local road tunnel label",
             "type": "symbol",
             "source-layer": "Toll local road tunnel",
             "metadata": {
@@ -9123,7 +9123,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major local road tunnel label",
+            "id": "Toll major local road tunnel label",
             "type": "symbol",
             "source-layer": "Toll major local road tunnel",
             "metadata": {
@@ -9167,7 +9167,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll connecting road tunnel label",
+            "id": "Toll connecting road tunnel label",
             "type": "symbol",
             "source-layer": "Toll connecting road tunnel",
             "metadata": {
@@ -9211,7 +9211,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll secondary road tunnel label",
+            "id": "Toll secondary road tunnel label",
             "type": "symbol",
             "source-layer": "Toll secondary road tunnel",
             "metadata": {
@@ -9259,7 +9259,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll major road tunnel label",
+            "id": "Toll major road tunnel label",
             "type": "symbol",
             "source-layer": "Toll major road tunnel",
             "metadata": {
@@ -9311,7 +9311,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll international road tunnel label",
+            "id": "Toll international road tunnel label",
             "type": "symbol",
             "source-layer": "Toll international road tunnel",
             "metadata": {
@@ -9363,7 +9363,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.labels.Toll motorway tunnel label",
+            "id": "Toll motorway tunnel label",
             "type": "symbol",
             "source-layer": "Toll motorway tunnel",
             "metadata": {

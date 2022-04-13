@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.buildings.School building",
+            "id": "School building",
             "type": "fill-extrusion",
             "source-layer": "School building",
             "minzoom": 16,
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Other building",
+            "id": "Other building",
             "type": "fill-extrusion",
             "source-layer": "Other building",
             "minzoom": 16,
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Factory building",
+            "id": "Factory building",
             "type": "fill-extrusion",
             "source-layer": "Factory building",
             "minzoom": 16,
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Place of worship",
+            "id": "Place of worship",
             "type": "fill-extrusion",
             "source-layer": "Place of worship",
             "minzoom": 16,
@@ -96,7 +96,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Hospital building",
+            "id": "Hospital building",
             "type": "fill-extrusion",
             "source-layer": "Hospital building",
             "minzoom": 16,
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Hotel building",
+            "id": "Hotel building",
             "type": "fill-extrusion",
             "source-layer": "Hotel building",
             "minzoom": 16,
@@ -138,7 +138,7 @@
             ]
         },
         {
-            "id": "microsoft.maps.base.buildings.Cultural Facility",
+            "id": "Cultural Facility",
             "type": "fill-extrusion",
             "source-layer": "Cultural Facility",
             "minzoom": 16,

@@ -1,7 +1,7 @@
 {
     "layers": [
         {
-            "id": "microsoft.maps.base.base.background",
+            "id": "background",
             "type": "background",
             "minzoom": 0,
             "maxzoom": 24,
@@ -16,7 +16,7 @@
             }
         },
         {
-            "id": "microsoft.maps.base.base.natural_earth",
+            "id": "natural_earth",
             "type": "raster",
             "minzoom": 0,
             "maxzoom": 6,

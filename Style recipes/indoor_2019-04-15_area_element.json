@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.area_element.indoor_area_element",
+      "id": "indoor_area_element",
       "type": "fill",
       "source-layer": "Indoor area_element",
       "minzoom": 18.5,
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.area_element.indoor_area_element_furniture",
+      "id": "indoor_area_element_furniture",
       "type": "fill",
       "source-layer": "Indoor area_element",
       "minzoom": 18.5,
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.area_element.indoor_areaElement",
+      "id": "indoor_areaElement",
       "type": "fill",
       "source-layer": "Indoor areaElement",
       "minzoom": 18.5,
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.area_element.indoor_areaElement_furniture",
+      "id": "indoor_areaElement_furniture",
       "type": "fill",
       "source-layer": "Indoor areaElement",
       "minzoom": 18.5,

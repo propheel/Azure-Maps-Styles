@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.opening.opening_line",
+      "id": "opening_line",
       "type": "line",
       "source-layer": "Indoor opening",
       "minzoom": 18.5,

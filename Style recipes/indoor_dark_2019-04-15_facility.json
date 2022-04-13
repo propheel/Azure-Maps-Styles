@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.facility.indoor_facility_building",
+      "id": "indoor_facility_building",
       "type": "fill",
       "source-layer": "Indoor facility",
       "minzoom": 16,

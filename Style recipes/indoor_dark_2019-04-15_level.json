@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary_zoom16to17",
+      "id": "footprint_boundary_zoom16to17",
       "type": "line",
       "source-layer": "Indoor level",
       "minzoom": 16,
@@ -19,7 +19,7 @@
       "filter": ["all", ["has", "floor0"]]
     },
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary",
+      "id": "footprint_boundary",
       "type": "line",
       "source-layer": "Indoor level",
       "minzoom": 17,
@@ -41,7 +41,7 @@
       "filter": ["all", ["has", "floor0"]]
     },
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary_fill",
+      "id": "footprint_boundary_fill",
       "type": "fill",
       "source-layer": "Indoor level",
       "minzoom": 16,

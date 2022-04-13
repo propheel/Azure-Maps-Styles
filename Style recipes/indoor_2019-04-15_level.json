@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.level.level_3d",
+      "id": "level_3d",
       "type": "fill-extrusion",
       "source-layer": "Indoor level",
       "minzoom": 13,
@@ -48,7 +48,7 @@
       }
     },
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary_zoom16to17",
+      "id": "footprint_boundary_zoom16to17",
       "type": "line",
       "source-layer": "Indoor level",
       "minzoom": 16,
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary",
+      "id": "footprint_boundary",
       "type": "line",
       "source-layer": "Indoor level",
       "minzoom": 17,
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.level.footprint_boundary_fill",
+      "id": "footprint_boundary_fill",
       "type": "fill",
       "source-layer": "Indoor level",
       "minzoom": 16,

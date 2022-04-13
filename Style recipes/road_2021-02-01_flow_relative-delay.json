@@ -18,7 +18,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Walkway road",
+            "id": "Vector Traffic Outline One Side Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -192,7 +192,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Walkway road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -366,7 +366,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Walkway road",
+            "id": "Vector Traffic Outline Full Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -540,7 +540,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Walkway road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -714,7 +714,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Walkway road",
+            "id": "Vector Traffic One Side Left Hand Traffic Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -889,7 +889,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Walkway road",
+            "id": "Vector Traffic Full Left Hand Traffic Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1064,7 +1064,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Walkway road",
+            "id": "Vector Traffic One Side Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1239,7 +1239,7 @@
                     "Walkway road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Walkway road",
+            "id": "Vector Traffic Full Walkway road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1414,7 +1414,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Pedestrian road",
+            "id": "Vector Traffic Outline One Side Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1588,7 +1588,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Pedestrian road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1762,7 +1762,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Pedestrian road",
+            "id": "Vector Traffic Outline Full Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -1936,7 +1936,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Pedestrian road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2110,7 +2110,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Pedestrian road",
+            "id": "Vector Traffic One Side Left Hand Traffic Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2285,7 +2285,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Pedestrian road",
+            "id": "Vector Traffic Full Left Hand Traffic Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2460,7 +2460,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Pedestrian road",
+            "id": "Vector Traffic One Side Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2635,7 +2635,7 @@
                     "Pedestrian road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Pedestrian road",
+            "id": "Vector Traffic Full Pedestrian road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2810,7 +2810,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Parking road",
+            "id": "Vector Traffic Outline One Side Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -2984,7 +2984,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Parking road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -3158,7 +3158,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Parking road",
+            "id": "Vector Traffic Outline Full Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -3332,7 +3332,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Parking road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -3506,7 +3506,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Parking road",
+            "id": "Vector Traffic One Side Left Hand Traffic Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -3681,7 +3681,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Parking road",
+            "id": "Vector Traffic Full Left Hand Traffic Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -3856,7 +3856,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Parking road",
+            "id": "Vector Traffic One Side Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4031,7 +4031,7 @@
                     "Parking road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Parking road",
+            "id": "Vector Traffic Full Parking road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4206,7 +4206,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Non public road",
+            "id": "Vector Traffic Outline One Side Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4380,7 +4380,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Non public road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4554,7 +4554,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Non public road",
+            "id": "Vector Traffic Outline Full Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4728,7 +4728,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Non public road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -4902,7 +4902,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Non public road",
+            "id": "Vector Traffic One Side Left Hand Traffic Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5077,7 +5077,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Non public road",
+            "id": "Vector Traffic Full Left Hand Traffic Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5252,7 +5252,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Non public road",
+            "id": "Vector Traffic One Side Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5427,7 +5427,7 @@
                     "Non public road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Non public road",
+            "id": "Vector Traffic Full Non public road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5602,7 +5602,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Minor local road",
+            "id": "Vector Traffic Outline One Side Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5776,7 +5776,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Minor local road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -5950,7 +5950,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Minor local road",
+            "id": "Vector Traffic Outline Full Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6124,7 +6124,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Minor local road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6298,7 +6298,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Minor local road",
+            "id": "Vector Traffic One Side Left Hand Traffic Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6473,7 +6473,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Minor local road",
+            "id": "Vector Traffic Full Left Hand Traffic Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6648,7 +6648,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Minor local road",
+            "id": "Vector Traffic One Side Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6823,7 +6823,7 @@
                     "Minor local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Minor local road",
+            "id": "Vector Traffic Full Minor local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -6998,7 +6998,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Local road",
+            "id": "Vector Traffic Outline One Side Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -7172,7 +7172,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Local road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -7346,7 +7346,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Local road",
+            "id": "Vector Traffic Outline Full Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -7520,7 +7520,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Local road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -7694,7 +7694,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Local road",
+            "id": "Vector Traffic One Side Left Hand Traffic Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -7869,7 +7869,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Local road",
+            "id": "Vector Traffic Full Left Hand Traffic Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8044,7 +8044,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Local road",
+            "id": "Vector Traffic One Side Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8219,7 +8219,7 @@
                     "Local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Local road",
+            "id": "Vector Traffic Full Local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8394,7 +8394,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Major local road",
+            "id": "Vector Traffic Outline One Side Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8568,7 +8568,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Major local road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8742,7 +8742,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Major local road",
+            "id": "Vector Traffic Outline Full Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -8916,7 +8916,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Major local road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9090,7 +9090,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Major local road",
+            "id": "Vector Traffic One Side Left Hand Traffic Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9265,7 +9265,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Major local road",
+            "id": "Vector Traffic Full Left Hand Traffic Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9440,7 +9440,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Major local road",
+            "id": "Vector Traffic One Side Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9615,7 +9615,7 @@
                     "Major local road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Major local road",
+            "id": "Vector Traffic Full Major local road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9790,7 +9790,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Connecting road",
+            "id": "Vector Traffic Outline One Side Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -9964,7 +9964,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Connecting road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -10138,7 +10138,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Connecting road",
+            "id": "Vector Traffic Outline Full Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -10312,7 +10312,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Connecting road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -10486,7 +10486,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Connecting road",
+            "id": "Vector Traffic One Side Left Hand Traffic Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -10661,7 +10661,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Connecting road",
+            "id": "Vector Traffic Full Left Hand Traffic Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -10836,7 +10836,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Connecting road",
+            "id": "Vector Traffic One Side Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11011,7 +11011,7 @@
                     "Connecting road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Connecting road",
+            "id": "Vector Traffic Full Connecting road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11186,7 +11186,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Secondary road",
+            "id": "Vector Traffic Outline One Side Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11360,7 +11360,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Secondary road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11534,7 +11534,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Secondary road",
+            "id": "Vector Traffic Outline Full Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11708,7 +11708,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Secondary road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -11882,7 +11882,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Secondary road",
+            "id": "Vector Traffic One Side Left Hand Traffic Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12057,7 +12057,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Secondary road",
+            "id": "Vector Traffic Full Left Hand Traffic Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12232,7 +12232,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Secondary road",
+            "id": "Vector Traffic One Side Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12407,7 +12407,7 @@
                     "Secondary road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Secondary road",
+            "id": "Vector Traffic Full Secondary road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12582,7 +12582,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Major road",
+            "id": "Vector Traffic Outline One Side Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12756,7 +12756,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Major road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -12930,7 +12930,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Major road",
+            "id": "Vector Traffic Outline Full Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13104,7 +13104,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Major road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13278,7 +13278,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Major road",
+            "id": "Vector Traffic One Side Left Hand Traffic Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13453,7 +13453,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Major road",
+            "id": "Vector Traffic Full Left Hand Traffic Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13628,7 +13628,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Major road",
+            "id": "Vector Traffic One Side Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13803,7 +13803,7 @@
                     "Major road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Major road",
+            "id": "Vector Traffic Full Major road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -13978,7 +13978,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side International road",
+            "id": "Vector Traffic Outline One Side International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -14152,7 +14152,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic International road",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -14326,7 +14326,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full International road",
+            "id": "Vector Traffic Outline Full International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -14500,7 +14500,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic International road",
+            "id": "Vector Traffic Outline Full Left Hand Traffic International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -14674,7 +14674,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic International road",
+            "id": "Vector Traffic One Side Left Hand Traffic International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -14849,7 +14849,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic International road",
+            "id": "Vector Traffic Full Left Hand Traffic International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15024,7 +15024,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side International road",
+            "id": "Vector Traffic One Side International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15199,7 +15199,7 @@
                     "International road"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full International road",
+            "id": "Vector Traffic Full International road",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15374,7 +15374,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Motorway",
+            "id": "Vector Traffic Outline One Side Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15548,7 +15548,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline One Side Left Hand Traffic Motorway",
+            "id": "Vector Traffic Outline One Side Left Hand Traffic Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15722,7 +15722,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Motorway",
+            "id": "Vector Traffic Outline Full Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -15896,7 +15896,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Outline Full Left Hand Traffic Motorway",
+            "id": "Vector Traffic Outline Full Left Hand Traffic Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -16070,7 +16070,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Left Hand Traffic Motorway",
+            "id": "Vector Traffic One Side Left Hand Traffic Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -16245,7 +16245,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Left Hand Traffic Motorway",
+            "id": "Vector Traffic Full Left Hand Traffic Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -16420,7 +16420,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic One Side Motorway",
+            "id": "Vector Traffic One Side Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },
@@ -16595,7 +16595,7 @@
                     "Motorway"
                 ]
             ],
-            "id": "microsoft.maps.base.traffic_relative-delay.Vector Traffic Full Motorway",
+            "id": "Vector Traffic Full Motorway",
             "metadata": {
                 "microsoft.maps:layerGroup": "traffic_relative-delay"
             },

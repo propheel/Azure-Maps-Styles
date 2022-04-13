@@ -1,7 +1,7 @@
 {
   "layers": [
     {
-      "id": "microsoft.maps.indoor.line_element.indoor_line_element",
+      "id": "indoor_line_element",
       "type": "line",
       "source-layer": "Indoor line_element",
       "minzoom": 19.9,
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "microsoft.maps.indoor.line_element.indoor_lineElement",
+      "id": "indoor_lineElement",
       "type": "line",
       "source-layer": "Indoor lineElement",
       "minzoom": 19.9,
