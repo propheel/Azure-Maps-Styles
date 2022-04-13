@@ -38,7 +38,10 @@ const mdpQueryParams = {
     'sku': 'G2',
     'creatorResourceName': 'test'
 }
-const subscriptionKey = 'yourSubscriptionKey';
+const authHeaders = {
+    /* 'subscription-key': 'yourSubscriptionKey', */
+    'Authorization': 'Bearer yourToken'
+}
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0" // Avoids DEPTH_ZERO_SELF_SIGNED_CERT error for self-signed certs
 
@@ -87,7 +90,7 @@ function callbackFn(response) {
                 deleteUrl,
                 {
                     headers: {
-                        'subscription-key': subscriptionKey
+                        ...authHeaders
                     },
                     params: deleteParams
                 }
@@ -126,7 +129,7 @@ function getAndDeleteAllStyleSets()
         listUrl,
         {
             headers: {
-                'subscription-key': subscriptionKey
+                ...authHeaders
             },
             params: listParams
         }
@@ -145,7 +148,7 @@ function getAndDeleteAllStyleSets()
                 listUrl,
                 {
                     headers: {
-                        'subscription-key': subscriptionKey
+                        ...authHeaders
                     },
                     params: listParams
                 }

@@ -51,7 +51,10 @@ const mdpQueryParams = {
     'sku': 'G2',
     'creatorResourceName': 'test'
 }
-const subscriptionKey = 'yourSubscriptionKey';
+const authHeaders = {
+    /* 'subscription-key': 'yourSubscriptionKey', */
+    'Authorization': 'Bearer yourToken'
+}
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0" // Avoids DEPTH_ZERO_SELF_SIGNED_CERT error for self-signed certs
 
@@ -86,20 +89,22 @@ function callbackFn(response) {
         const statusUrl = response.headers['operation-location'];
         outputLog(`Got operation location: ${statusUrl}`);
         let urlParts = statusUrl.split('?');
-        let requestUrl = urlParts[0];
+        let requestUrlParts = urlParts[0].split(createStyleRecipeOperation);
+        let requestUrl = argv.baseUrl;
         let createStyleRecipeOperationParams = qs.parse(urlParts[1]);
         if (argv.useMdp)
         {
-            requestUrl = requestUrl.replace('localhost/styles', 'localhost/TilesetAPI/styles');
+            requestUrl += mdpApiPath;
             createStyleRecipeOperationParams = {...mdpQueryParams, ...createStyleRecipeOperationParams};
         }
+        requestUrl += createStyleRecipeOperation + requestUrlParts[1];
         delay(1000).then(() =>
         {
             axios.get(
                 requestUrl,
                 {
                     headers: {
-                        'subscription-key': subscriptionKey
+                        ...authHeaders
                     },
                     params: createStyleRecipeOperationParams
                 }
@@ -129,7 +134,7 @@ function callbackFn(response) {
                     requestUrl,
                     {
                         headers: {
-                            'subscription-key': subscriptionKey
+                            ...authHeaders
                         },
                         params: createStyleRecipeOperationParams
                     }
@@ -184,7 +189,7 @@ function uploadStyleRecipe(filePath)
         fs.readFileSync(filePath),
         {
             headers: {
-                'subscription-key': subscriptionKey,
+                ...authHeaders,
                 'content-type': 'application/' + fileType,
                 'content-length': fs.lstatSync(filePath).size,
             },
