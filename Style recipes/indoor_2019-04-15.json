@@ -1,6 +1,887 @@
 {
   "layers": [
     {
+      "id": "indoor_facility_building",
+      "type": "fill",
+      "source-layer": "Indoor facility",
+      "minzoom": 13,
+      "metadata": {
+        "microsoft.maps:layerGroup": "facility"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 0.5,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(241, 241, 242, 1)"
+        ],
+        "fill-antialias": true
+      },
+      "filter": [
+        "any",
+        ["==", "category_name", "facility"],
+        ["==", "category_name", "facility.building"],
+        ["==", "categoryName", "facility"],
+        ["==", "categoryName", "facility.building"]
+      ]
+    },
+    {
+      "id": "level_3d",
+      "type": "fill-extrusion",
+      "source-layer": "Indoor level",
+      "minzoom": 13,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-extrusion-color": "rgba(217, 217, 218, 1)",
+        "fill-extrusion-base": [
+          "*",
+          5,
+          [
+            "+",
+            0,
+            [
+              "coalesce",
+              [
+                "get",
+                "ordinal"
+              ],
+              0
+            ]
+          ]
+        ],
+        "fill-extrusion-height": [
+          "*",
+          5,
+          [
+            "+",
+            1,
+            [
+              "coalesce",
+              [
+                "get",
+                "ordinal"
+              ],
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "footprint_boundary_zoom13to17",
+      "type": "line",
+      "source-layer": "Indoor level",
+      "minzoom": 13,
+      "maxzoom": 17,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "focused"
+            ],
+            false
+          ],
+          "#007FFF",
+          "#808080"
+        ],
+        "line-width": 5
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    },
+    {
+      "id": "footprint_boundary",
+      "type": "line",
+      "source-layer": "Indoor level",
+      "minzoom": 17,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "focused"
+            ],
+            false
+          ],
+          "#007FFF",
+          "rgba(217, 217, 218, 1)"
+        ],
+        "line-width": 5
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    },
+    {
+      "id": "footprint_boundary_fill",
+      "type": "fill",
+      "source-layer": "Indoor level",
+      "minzoom": 13,
+      "metadata": {
+        "microsoft.maps:layerGroup": "level"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(0, 0, 0, 0.0)"
+        ]
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ]
+      ]
+    },
+    {
+      "id": "indoor_unit_store",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": "rgba(230, 230, 230, 1)",
+        "fill-antialias": true,
+        "fill-opacity": 1,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.store"],
+          ["==", "categoryName", "room.store"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_unit_room",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(230, 230, 230, 1)"
+        ],
+        "fill-antialias": true,
+        "fill-opacity": 1,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room"],
+          ["==", "category_name", "room.other"],
+          ["==", "category_name", "room.laboratory"],
+          ["==", "categoryName", "room"],
+          ["==", "categoryName", "room.other"],
+          ["==", "categoryName", "room.laboratory"],
+          ["==", "categoryName", "room.atrium"],
+          ["==", "categoryName", "room.circulation"],
+          ["==", "categoryName", "room.classroom"],
+          ["==", "categoryName", "room.closet"],
+          ["==", "categoryName", "room.closet.coat"],
+          ["==", "categoryName", "room.closet.janitorial"],
+          ["==", "categoryName", "room.closet.supply"],
+          ["==", "categoryName", "room.copy"],
+          ["==", "categoryName", "room.dataCenter"],
+          ["==", "categoryName", "room.demo"],
+          ["==", "categoryName", "room.documents"],
+          ["==", "categoryName", "room.focus"],
+          ["==", "categoryName", "room.foyer"],
+          ["==", "categoryName", "room.gaming"],
+          ["==", "categoryName", "room.gym"],
+          ["==", "categoryName", "room.interview"],
+          ["==", "categoryName", "room.lab"],
+          ["==", "categoryName", "room.lab.storage"],
+          ["==", "categoryName", "room.library"],
+          ["==", "categoryName", "room.loading"],
+          ["==", "categoryName", "room.locker"],
+          ["==", "categoryName", "room.makerSpace"],
+          ["==", "categoryName", "room.multiPurpose"],
+          ["==", "categoryName", "room.multiPurpose.large"],
+          ["==", "categoryName", "room.multiPurpose.medium"],
+          ["==", "categoryName", "room.multiPurpose.small"],
+          ["==", "categoryName", "room.newMother"],
+          ["==", "categoryName", "room.office.large"],
+          ["==", "categoryName", "room.office.medium"],
+          ["==", "categoryName", "room.office.open"],
+          ["==", "categoryName", "room.office.shared"],
+          ["==", "categoryName", "room.office.small"],
+          ["==", "categoryName", "room.office.team"],
+          ["==", "categoryName", "room.openMeeting"],
+          ["==", "categoryName", "room.phone"],
+          ["==", "categoryName", "room.production.floor"],
+          ["==", "categoryName", "room.production.shipping"],
+          ["==", "categoryName", "room.production.warehouse"],
+          ["==", "categoryName", "room.project"],
+          ["==", "categoryName", "room.receiving"],
+          ["==", "categoryName", "room.reception"],
+          ["==", "categoryName", "room.recording"],
+          ["==", "categoryName", "room.recording.booth"],
+          ["==", "categoryName", "room.recording.studio"],
+          ["==", "categoryName", "room.recreation"],
+          ["==", "categoryName", "room.relaxation"],
+          ["==", "categoryName", "room.restroom.allGender"],
+          ["==", "categoryName", "room.restroom.female"],
+          ["==", "categoryName", "room.restroom.male"],
+          ["==", "categoryName", "room.restroom.private"],
+          ["==", "categoryName", "room.retail"],
+          ["==", "categoryName", "room.security"],
+          ["==", "categoryName", "room.server"],
+          ["==", "categoryName", "room.shared"],
+          ["==", "categoryName", "room.showcase"],
+          ["==", "categoryName", "room.shower"],
+          ["==", "categoryName", "room.stock"],
+          ["==", "categoryName", "room.storage.secure"],
+          ["==", "categoryName", "room.studio"],
+          ["==", "categoryName", "room.supply"],
+          ["==", "categoryName", "room.training"],
+          ["==", "categoryName", "room.underConstruction"],
+          ["==", "categoryName", "room.unknown"],
+          ["==", "categoryName", "room.utility"],
+          ["==", "categoryName", "room.utility.audioVisual"],
+          ["==", "categoryName", "room.utility.cable"],
+          ["==", "categoryName", "room.utility.cable.private"],
+          ["==", "categoryName", "room.utility.electrical"],
+          ["==", "categoryName", "room.utility.mechanical"],
+          ["==", "categoryName", "room.utility.sprinkler"],
+          ["==", "categoryName", "room.vending"],
+          ["==", "categoryName", "room.visitorArea"],
+          ["==", "categoryName", "room.warehouse"],
+          ["==", "categoryName", "room.wellness"],
+          ["==", "categoryName", "room.workspace"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_unit_storage",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(230, 230, 230, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.mechanical"],
+          ["==", "category_name", "room.storage"],
+          ["==", "categoryName", "room.mechanical"],
+          ["==", "categoryName", "room.storage"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "indoor_unit_restroom",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": "rgba(243, 225, 241, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.restroom"],
+          ["==", "category_name", "room.break"],
+          ["==", "category_name", "room.lounge"],
+          ["==", "categoryName", "room.restroom"],
+          ["==", "categoryName", "room.break"],
+          ["==", "categoryName", "room.lounge"],
+          ["==", "categoryName", "room.gaming"],
+          ["==", "categoryName", "room.allGender"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "indoor_unit_conference",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(223, 238, 243, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.conference"],
+          ["==", "category_name", "room.conference.extralarge"],
+          ["==", "category_name", "room.conference.large"],
+          ["==", "category_name", "room.conference.medium"],
+          ["==", "category_name", "room.conference.small"],
+          ["==", "category_name", "room.conference_room"],
+          ["==", "category_name", "room.auditorium"],
+          ["==", "categoryName", "room.conference"],
+          ["==", "categoryName", "room.conference.extralarge"],
+          ["==", "categoryName", "room.conference.large"],
+          ["==", "categoryName", "room.conference.medium"],
+          ["==", "categoryName", "room.conference.small"],
+          ["==", "categoryName", "room.conference_room"],
+          ["==", "categoryName", "room.auditorium"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "indoor_unit_hallway",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.hallway"],
+          ["==", "categoryName", "room.hallway"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "indoor_unit_office",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "paint": {
+        "fill-opacity": 0.75,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(204, 222, 239, 1)"
+        ],
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.office"],
+          ["==", "categoryName", "room.office"],
+          ["==", "categoryName", "room.office.large"],
+          ["==", "categoryName", "room.office.medium"],
+          ["==", "categoryName", "room.office.open"],
+          ["==", "categoryName", "room.office.shared"],
+          ["==", "categoryName", "room.office.small"],
+          ["==", "categoryName", "room.office.team"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "indoor_unit_kitchen",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "room.kitchen"],
+          ["==", "category_name", "room.kitchenette"],
+          ["==", "category_name", "room.cafeteria"],
+          ["==", "categoryName", "room.kitchen"],
+          ["==", "categoryName", "room.kitchenette"],
+          ["==", "categoryName", "room.cafeteria"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 0.8,
+        "fill-color": "rgba(255, 227, 202, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      }
+    },
+    {
+      "id": "indoor_unit_lobby",
+      "type": "fill",
+      "source-layer": "Indoor unit",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "room.lobby"],
+          ["==", "categoryName", "room.lobby"]
+        ]
+      ],
+      "metadata": {
+        "microsoft.maps:layerGroup": "unit"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-antialias": true,
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      }
+    },
+    {
+      "id": "indoor_vertical_penetration",
+      "type": "fill",
+      "source-layer": "Indoor vertical_penetration",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "vertical_penetration"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "rgba(244, 244, 244, 1)",
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "category_name", "verticalPenetration"],
+          ["==", "category_name", "verticalPenetration.elevator"],
+          ["==", "category_name", "verticalPenetration.stairs"],
+          ["==", "category_name", "verticalPenetration.stairwell"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_verticalPenetration",
+      "type": "fill",
+      "source-layer": "Indoor verticalPenetration",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "vertical_penetration"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(244, 244, 244, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)",
+        "fill-antialias": true
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["==", "categoryName", "verticalPenetration"],
+          ["==", "categoryName", "verticalPenetration.elevator"],
+          ["==", "categoryName", "verticalPenetration.stairs"],
+          ["==", "categoryName", "verticalPenetration.stairwell"]
+        ]
+      ]
+    },
+    {
+      "id": "opening_line",
+      "type": "line",
+      "source-layer": "Indoor opening",
+      "minzoom": 16,
+      "metadata": {
+        "microsoft.maps:layerGroup": "opening"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-color": "rgba(255, 255, 255, 1)",
+        "line-width": 1.5
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "opening"],
+          ["==", "category_name", "opening.door"],
+          ["==", "categoryName", "opening"],
+          ["==", "categoryName", "opening.door"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_structure",
+      "type": "fill",
+      "source-layer": "Indoor structure",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "structure"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "categoryName", "structure"],
+          ["==", "categoryName", "structure.wall"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_area_element",
+      "type": "fill",
+      "source-layer": "Indoor area_element",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": "rgba(220, 220, 220, 1)",
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "category_name", "structure"],
+          ["==", "category_name", "structure.wall"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_area_element_furniture",
+      "type": "fill",
+      "source-layer": "Indoor area_element",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "equipment"],
+          ["==", "category_name", "equipment.copier"],
+          ["==", "category_name", "equipment.device"],
+          ["==", "category_name", "equipment.printer"],
+          ["==", "category_name", "furniture"],
+          ["==", "category_name", "furniture.chair"],
+          ["==", "category_name", "furniture.desk"],
+          ["==", "category_name", "furniture.table"],
+          ["==", "category_name", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_areaElement",
+      "type": "fill",
+      "source-layer": "Indoor areaElement",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        ["has", "floor0"],
+        [
+          "any",
+          ["==", "categoryName", "structure"],
+          ["==", "categoryName", "structure.wall"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_areaElement_furniture",
+      "type": "fill",
+      "source-layer": "Indoor areaElement",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "area_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "fill-color": [
+          "string",
+          [ "feature-state", "color" ],
+          "rgba(220, 220, 220, 1)"
+        ],
+        "fill-outline-color": "rgba(120, 120, 120, 1)"
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "categoryName", "equipment"],
+          ["==", "categoryName", "equipment.copier"],
+          ["==", "categoryName", "equipment.device"],
+          ["==", "categoryName", "equipment.printer"],
+          ["==", "categoryName", "furniture"],
+          ["==", "categoryName", "furniture.chair"],
+          ["==", "categoryName", "furniture.desk"],
+          ["==", "categoryName", "furniture.table"],
+          ["==", "categoryName", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_line_element",
+      "type": "line",
+      "source-layer": "Indoor line_element",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "line_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-width": 1,
+        "line-opacity": 0.3
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "category_name", "equipment"],
+          ["==", "category_name", "equipment.copier"],
+          ["==", "category_name", "equipment.device"],
+          ["==", "category_name", "equipment.printer"],
+          ["==", "category_name", "furniture"],
+          ["==", "category_name", "furniture.chair"],
+          ["==", "category_name", "furniture.desk"],
+          ["==", "category_name", "furniture.table"],
+          ["==", "category_name", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
+      "id": "indoor_lineElement",
+      "type": "line",
+      "source-layer": "Indoor lineElement",
+      "minzoom": 18,
+      "metadata": {
+        "microsoft.maps:layerGroup": "line_element"
+      },
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "line-width": 1,
+        "line-opacity": 0.3
+      },
+      "filter": [
+        "all",
+        [
+          "has",
+          "floor0"
+        ],
+        [
+          "any",
+          ["!=", "random_attribute", "always_false_d6a0e315-7a49-4a71-b45f-d21b98d31ea3"],
+          ["==", "categoryName", "equipment"],
+          ["==", "categoryName", "equipment.copier"],
+          ["==", "categoryName", "equipment.device"],
+          ["==", "categoryName", "equipment.printer"],
+          ["==", "categoryName", "furniture"],
+          ["==", "categoryName", "furniture.chair"],
+          ["==", "categoryName", "furniture.desk"],
+          ["==", "categoryName", "furniture.table"],
+          ["==", "categoryName", "furniture.table.conference"]
+        ]
+      ]
+    },
+    {
       "id": "indoor_global_unit_label",
       "type": "symbol",
       "source-layer": "Indoor unit",
@@ -27,7 +908,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -37,8 +918,8 @@
         "text-anchor": "center"
       },
       "paint": {
-        "text-color": "rgb(255, 255, 255)",
-        "text-halo-color": "rgb(0, 0, 0)",
+        "text-color": "rgb(0, 0, 0)",
+        "text-halo-color": "rgb(255, 255, 255)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -77,7 +958,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -87,14 +968,14 @@
         "icon-image": "lobby",
         "icon-size": {
           "stops": [
-            [17.5, 0.65],
+            [18.5, 0.65],
             [21, 1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -134,7 +1015,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -144,14 +1025,14 @@
         "icon-image": "game",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -192,7 +1073,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -202,14 +1083,14 @@
         "icon-image": "kitchen",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -247,7 +1128,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -258,14 +1139,14 @@
         "text-anchor": "top",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -304,7 +1185,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -315,14 +1196,14 @@
         "text-anchor": "top",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -370,7 +1251,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -381,14 +1262,14 @@
         "text-anchor": "top",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -431,7 +1312,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -441,15 +1322,15 @@
         "icon-image": "neighborhood",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         },
         "text-anchor": "top"
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -459,7 +1340,7 @@
         ]
       }
     },
-        {
+    {
       "id": "indoor_unit_atrium_label",
       "type": "symbol",
       "source-layer": "Indoor unit",
@@ -487,7 +1368,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -497,14 +1378,14 @@
         "icon-image": "atrium",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -542,7 +1423,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -552,14 +1433,14 @@
         "icon-image": "circulation",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -597,7 +1478,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -607,14 +1488,14 @@
         "icon-image": "classroom",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -655,7 +1536,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -665,14 +1546,14 @@
         "icon-image": "closet",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -710,7 +1591,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -720,14 +1601,14 @@
         "icon-image": "data-center",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -765,7 +1646,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -775,14 +1656,14 @@
         "icon-image": "demo",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -820,7 +1701,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -830,14 +1711,14 @@
         "icon-image": "documents",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -875,7 +1756,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -885,14 +1766,14 @@
         "icon-image": "focus",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -930,7 +1811,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -940,14 +1821,14 @@
         "icon-image": "foyer",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -991,7 +1872,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1001,14 +1882,14 @@
         "icon-image": "utility-room",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1046,7 +1927,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1056,14 +1937,14 @@
         "icon-image": "retail",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1101,7 +1982,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1111,14 +1992,14 @@
         "icon-image": "vending",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1156,7 +2037,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1166,14 +2047,14 @@
         "icon-image": "new-mother",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1214,7 +2095,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1224,14 +2105,14 @@
         "icon-image": "multi-purpose",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1269,7 +2150,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1279,14 +2160,14 @@
         "icon-image": "maker-space-1",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1324,7 +2205,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1334,14 +2215,14 @@
         "icon-image": "locker",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1379,7 +2260,7 @@
         "text-letter-spacing": 1.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1389,14 +2270,14 @@
         "icon-image": "loading",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1434,7 +2315,7 @@
         "text-letter-spacing": 1.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1444,14 +2325,14 @@
         "icon-image": "library",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1491,7 +2372,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1501,14 +2382,14 @@
         "icon-image": "lab",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1546,7 +2427,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1556,14 +2437,14 @@
         "icon-image": "interview",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1601,7 +2482,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1611,14 +2492,14 @@
         "icon-image": "gym",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1657,14 +2538,14 @@
         "icon-image": "elevator",
         "icon-size": {
           "stops": [
-            [17.5, 0.65],
+            [18.5, 0.65],
             [21, 1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1703,14 +2584,14 @@
         "icon-image": "elevator",
         "icon-size": {
           "stops": [
-            [17.5, 0.65],
+            [18.5, 0.65],
             [21, 1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1750,14 +2631,14 @@
         "icon-image": "stairs",
         "icon-size": {
           "stops": [
-            [17.5, 0.65],
+            [18.5, 0.65],
             [21, 1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1797,14 +2678,14 @@
         "icon-image": "stairs",
         "icon-size": {
           "stops": [
-            [17.5, 0.65],
+            [18.5, 0.65],
             [21, 1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1814,7 +2695,7 @@
         ]
       }
     },
-        {
+    {
       "id": "indoor_zone_wifi_label",
       "type": "symbol",
       "source-layer": "Indoor zone",
@@ -1841,7 +2722,7 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
-            [18, 5],
+            [18, 5]
             [18.5, 6.5],
             [19, 8],
             [19.5, 9.5],
@@ -1851,14 +2732,14 @@
         "icon-image": "wifi-signal",
         "icon-size": {
           "stops": [
-            [18.5, 0.7],
+            [17.5, 0.7],
             [21, 1.1]
           ]
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1903,8 +2784,8 @@
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1949,8 +2830,8 @@
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -1995,8 +2876,8 @@
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",
@@ -2041,8 +2922,8 @@
         }
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
         "text-halo-width": 1,
         "text-halo-blur": 0.5,
         "text-opacity": ["step",

@@ -1,10 +1,10 @@
 {
   "version": 1,
   "description": "First indoor style set!",
-  "defaultStyle": "road_indoor_tileset_00000000-0000-0000-0000-000000000000",
+  "defaultStyle": "road_indoor",
   "styles": [
     {
-      "name": "road_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "road_indoor",
       "displayName": "Road",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -44,44 +44,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "road_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "road_indoor_dark",
       "displayName": "Road",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -121,44 +89,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "satellite_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "satellite_indoor",
       "displayName": "Satellite",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -190,44 +126,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "satellite_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "satellite_indoor_dark",
       "displayName": "Satellite",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -259,44 +163,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "satellite_road_labels_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "satellite_road_labels_indoor",
       "displayName": "Hybrid",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -332,44 +204,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "satellite_road_labels_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "satellite_road_labels_indoor_dark",
       "displayName": "Hybrid",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -405,44 +245,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "grayscale_dark_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "grayscale_dark_indoor",
       "displayName": "Grayscale (Dark)",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -482,44 +290,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "grayscale_dark_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "grayscale_dark_indoor_dark",
       "displayName": "Grayscale (Dark)",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -559,44 +335,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "night_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "night_indoor",
       "displayName": "Night",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -636,44 +380,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "night_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "night_indoor_dark",
       "displayName": "Night",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -713,44 +425,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "grayscale_light_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "grayscale_light_indoor",
       "displayName": "Grayscale (Light)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -790,44 +470,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "grayscale_light_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "grayscale_light_indoor_dark",
       "displayName": "Grayscale (Light)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -867,44 +515,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "road_shaded_relief_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "road_shaded_relief_indoor",
       "displayName": "Terra",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -948,44 +564,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "road_shaded_relief_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "road_shaded_relief_indoor_dark",
       "displayName": "Terra",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1029,44 +613,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "blank_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "blank_indoor",
       "displayName": "Blank",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1090,44 +642,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "blank_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "blank_indoor_dark",
       "displayName": "Blank",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1151,44 +671,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "blank_accessible_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "blank_accessible_indoor",
       "displayName": "Blank (Accessible)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1220,44 +708,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "blank_accessible_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "blank_accessible_indoor_dark",
       "displayName": "Blank (Accessible)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1289,44 +745,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "high_contrast_dark_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "high_contrast_dark_indoor",
       "displayName": "High contrast (Dark)",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -1366,44 +790,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "high_contrast_dark_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "high_contrast_dark_indoor_dark",
       "displayName": "High contrast (Dark)",
       "description": "It's a base style for Azure Maps.",
       "theme": "dark",
@@ -1443,44 +835,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     },
     {
-      "name": "high_contrast_light_indoor_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "high_contrast_light_indoor",
       "displayName": "High contrast (Light)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1520,44 +880,12 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
     {
-      "name": "high_contrast_light_indoor_dark_tileset_00000000-0000-0000-0000-000000000000",
+      "name": "high_contrast_light_indoor_dark",
       "displayName": "High contrast (Light)",
       "description": "It's a base style for Azure Maps.",
       "theme": "light",
@@ -1597,39 +925,7 @@
         },
         {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_facility"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_level"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_unit"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_vertical_penetration"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_opening"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_structure"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_area_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_line_element"
-        },
-        {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15_labels"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     }
