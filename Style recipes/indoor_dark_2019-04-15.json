@@ -2075,7 +2075,7 @@
         "text-keep-upright": true,
         "text-font": ["SegoeFrutigerHelveticaMYingHei-Medium"],
         "text-offset": [0, 1.05],
-        "text-letter-spacing": 1.1,
+        "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
             [18, 5],
@@ -2130,7 +2130,7 @@
         "text-keep-upright": true,
         "text-font": ["SegoeFrutigerHelveticaMYingHei-Medium"],
         "text-offset": [0, 1.05],
-        "text-letter-spacing": 1.1,
+        "text-letter-spacing": 0.1,
         "text-size": {
           "stops": [
             [18, 5],

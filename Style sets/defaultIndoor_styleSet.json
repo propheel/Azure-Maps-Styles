@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Default indoor style set",
+  "description": "This is Microsoft default indoor style set",
   "defaultStyle": "indoor_light",
   "styles": [
     {
@@ -11,40 +11,8 @@
       "thumbnail": "indoor_2019-04-15.png",
       "layers": [
         {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_base"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_transit"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.absolute",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.relative",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.relative_delay",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_buildings"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels_places"
-        },
-        {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
+          "styleRecipeId": "microsoft-maps:indoor_2022-01-01"
         }
       ]
     },
@@ -56,40 +24,8 @@
       "thumbnail": "indoor_dark_2019-04-15.png",
       "layers": [
         {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_base"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_transit"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.absolute",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_absolute"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.relative",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative"
-        },
-        {
-          "tilesetId": "microsoft.maps.flow.relative_delay",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_flow_relative-delay"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_buildings"
-        },
-        {
-          "tilesetId": "microsoft.base",
-          "styleRecipeId": "microsoft-maps:road_2021-02-01_labels_places"
-        },
-        {
           "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
+          "styleRecipeId": "microsoft-maps:indoor_dark_2022-01-01"
         }
       ]
     }
