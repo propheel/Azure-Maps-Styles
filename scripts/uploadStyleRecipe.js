@@ -173,7 +173,7 @@ function uploadStyleRecipe(filePath)
     let createStyleRecipeParams = {
         'api-version': '2022-01-01-preview',
         'dataFormat': fileType,
-        'styleFormat': 'azureMapsStyleRecipe',
+        'styleFormat': 'azureMapsStyle',
         'alias': 'microsoft-maps:' + fileName,
         'description': ''
     };

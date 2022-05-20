@@ -9,10 +9,11 @@
       "description": "A base style for Azure Maps.",
       "theme": "light",
       "thumbnail": "indoor_2019-04-15.png",
+      "baseMapStyle": "microsoft_light",
       "layers": [
         {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_2022-01-01"
+          "tilesetId": "indoorTilesetIdPlaceholder",
+          "styleRecipeId": "microsoft-maps:indoor_2019-04-15"
         }
       ]
     },
@@ -22,10 +23,11 @@
       "description": "A base style for Azure Maps.",
       "theme": "dark",
       "thumbnail": "indoor_dark_2019-04-15.png",
+      "baseMapStyle": "microsoft_dark",
       "layers": [
         {
-          "tilesetId": "00000000-0000-0000-0000-000000000000",
-          "styleRecipeId": "microsoft-maps:indoor_dark_2022-01-01"
+          "tilesetId": "indoorTilesetIdPlaceholder",
+          "styleRecipeId": "microsoft-maps:indoor_dark_2019-04-15"
         }
       ]
     }
